@@ -1,0 +1,6 @@
+Flask==2.3.2
+Werkzeug==2.3.6
+python-dotenv==1.0.0
+opencv-python==4.8.0.76
+requests==2.32.3
+Flask-SocketIO==5.3.6

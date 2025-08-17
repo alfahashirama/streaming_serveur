@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% block title %}Administration - Streaming{% endblock %}
+{% block content %}
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-200">Administration</h1>
+    </header>
+    
+    <main>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Contrôle du Stream</h3>
+            <div class="flex space-x-4">
+                <button id="start-video-btn" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">Démarrer Stream Vidéo</button>
+                <button id="start-webcam-btn" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">Démarrer Stream Webcam</button>
+                <button id="stop-btn" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">Arrêter Stream</button>
+                <button id="start-recording-btn" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Démarrer Enregistrement</button>
+                <button id="stop-recording-btn" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">Arrêter Enregistrement</button>
+            </div>
+            <div class="mt-4">
+                <form id="upload-form" enctype="multipart/form-data">
+                    <label for="video-upload" class="block text-gray-600 dark:text-gray-400 mb-2">Uploader une vidéo</label>
+                    <input type="file" id="video-upload" name="file" accept=".mp4,.avi,.mkv" class="mb-4 text-gray-800 dark:text-gray-200">
+                    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Uploader</button>
+                </form>
+                <div id="uploaded-videos" class="mt-4">
+                    <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-200">Vidéos uploadées</h4>
+                    <select id="video-select" class="w-full p-2 border rounded-lg dark:bg-gray-600 dark:text-gray-200 dark:border-gray-500">
+                        <option value="">Sélectionner une vidéo</option>
+                        {% for file in uploaded_videos %}
+                            <option value="{{ file }}">{{ file }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Statistiques</h3>
+            <p class="text-gray-600 dark:text-gray-400">Spectateurs actuels : <span id="viewers">{{ stats.viewers }}</span></p>
+            <p class="text-gray-600 dark:text-gray-400">Vues totales : {{ stats.total_views }}</p>
+            <p class="text-gray-600 dark:text-gray-400">Stream actif : {{ 'Oui' if stats.stream_active else 'Non' }}</p>
+            <p class="text-gray-600 dark:text-gray-400">Type de stream : {{ stats.stream_type or 'Aucun' }}</p>
+        </div>
+    </main>
+
+    <script>
+        async function fetchWithErrorHandling(url, options) {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    const text = await response.text();
+                    throw new Error(`Erreur réseau : ${response.status} - ${text}`);
+                }
+                return response;
+            } catch (error) {
+                console.error('Erreur:', error);
+                showModal('Erreur', `Erreur: ${error.message}`, false);
+                throw error;
+            }
+        }
+
+        document.getElementById('start-video-btn').addEventListener('click', async () => {
+            const videoPath = document.getElementById('video-select').value;
+            if (!videoPath) {
+                showModal('Erreur', 'Veuillez sélectionner une vidéo à diffuser.', false);
+                return;
+            }
+            showModal(
+                'Confirmer l\'action',
+                'Voulez-vous démarrer le stream vidéo ?',
+                true,
+                async () => {
+                    await fetchWithErrorHandling('/api/control_stream', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'start', stream_type: 'video', video_path: videoPath })
+                    }).then(response => {
+                        document.getElementById('viewers').textContent = response.stats ? response.stats.viewers : document.getElementById('viewers').textContent;
+                        showModal('Succès', 'Stream vidéo démarré', false);
+                    });
+                }
+            );
+        });
+
+        document.getElementById('start-webcam-btn').addEventListener('click', async () => {
+            showModal(
+                'Confirmer l\'action',
+                'Voulez-vous démarrer le stream webcam ?',
+                true,
+                async () => {
+                    await fetchWithErrorHandling('/api/control_stream', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'start', stream_type: 'webcam' })
+                    }).then(response => {
+                        document.getElementById('viewers').textContent = response.stats ? response.stats.viewers : document.getElementById('viewers').textContent;
+                        showModal('Succès', 'Stream webcam démarré', false);
+                    });
+                }
+            );
+        });
+
+        document.getElementById('stop-btn').addEventListener('click', async () => {
+            showModal(
+                'Confirmer l\'action',
+                'Voulez-vous arrêter le stream ?',
+                true,
+                async () => {
+                    await fetchWithErrorHandling('/api/control_stream', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'stop' })
+                    }).then(response => {
+                        document.getElementById('viewers').textContent = response.stats ? response.stats.viewers : document.getElementById('viewers').textContent;
+                        showModal('Succès', 'Stream arrêté', false);
+                    });
+                }
+            );
+        });
+
+        document.getElementById('upload-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            formData.append('file', document.getElementById('video-upload').files[0]);
+            await fetchWithErrorHandling('/api/upload', {
+                method: 'POST',
+                body: formData
+            }).then(async () => {
+                const response = await fetch('/api/videos');
+                const data = await response.json();
+                const select = document.getElementById('video-select');
+                select.innerHTML = '<option value="">Sélectionner une vidéo</option>';
+                data.videos.forEach(video => {
+                    const option = document.createElement('option');
+                    option.value = video;
+                    option.textContent = video;
+                    select.appendChild(option);
+                });
+                showModal('Succès', 'Fichier uploadé avec succès', false);
+            });
+        });
+
+        document.getElementById('start-recording-btn').addEventListener('click', async () => {
+            showModal(
+                'Confirmer l\'action',
+                'Voulez-vous démarrer l\'enregistrement ?',
+                true,
+                async () => {
+                    await fetchWithErrorHandling('/api/control_recording', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'start' })
+                    }).then(() => {
+                        showModal('Succès', 'Enregistrement démarré', false);
+                    });
+                }
+            );
+        });
+
+        document.getElementById('stop-recording-btn').addEventListener('click', async () => {
+            showModal(
+                'Confirmer l\'action',
+                'Voulez-vous arrêter l\'enregistrement ?',
+                true,
+                async () => {
+                    await fetchWithErrorHandling('/api/control_recording', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'stop' })
+                    }).then(async () => {
+                        const response = await fetch('/api/videos');
+                        const data = await response.json();
+                        const select = document.getElementById('video-select');
+                        select.innerHTML = '<option value="">Sélectionner une vidéo</option>';
+                        data.videos.forEach(video => {
+                            const option = document.createElement('option');
+                            option.value = video;
+                            option.textContent = video;
+                            select.appendChild(option);
+                        });
+                        showModal('Succès', 'Enregistrement arrêté', false);
+                    });
+                }
+            );
+        });
+    </script>
+{% endblock %}

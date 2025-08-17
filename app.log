@@ -1,0 +1,949 @@
+2025-08-05 10:26:27,834 - WARNING -  * Debugger is active!
+2025-08-05 10:26:27,835 - INFO -  * Debugger PIN: 623-635-536
+2025-08-05 10:26:28,467 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:28] "GET /socket.io/?EIO=4&transport=polling&t=PXv7zmf HTTP/1.1" 200 -
+2025-08-05 10:26:28,489 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:28] "POST /socket.io/?EIO=4&transport=polling&t=PXv7zn0&sid=jbMYAQElujlMKeoJAAAA HTTP/1.1" 200 -
+2025-08-05 10:26:28,492 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:28] "GET /socket.io/?EIO=4&transport=polling&t=PXv7zn1&sid=jbMYAQElujlMKeoJAAAA HTTP/1.1" 200 -
+2025-08-05 10:26:45,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-05 10:26:45,151 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 10:26:45,151 - INFO -  * Restarting with stat
+2025-08-05 10:26:45,580 - WARNING -  * Debugger is active!
+2025-08-05 10:26:45,581 - INFO -  * Debugger PIN: 623-635-536
+2025-08-05 10:26:45,588 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PXv81gZ HTTP/1.1" 200 -
+2025-08-05 10:26:45,616 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:45] "POST /socket.io/?EIO=4&transport=polling&t=PXv81yf&sid=tQ8KFKvBrCQ2Zxz1AAAA HTTP/1.1" 200 -
+2025-08-05 10:26:45,620 - INFO - 192.168.1.147 - - [05/Aug/2025 10:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PXv81yg&sid=tQ8KFKvBrCQ2Zxz1AAAA HTTP/1.1" 200 -
+2025-08-05 10:27:00,461 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:00] "GET /admin HTTP/1.1" 200 -
+2025-08-05 10:27:03,309 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:03] "GET / HTTP/1.1" 200 -
+2025-08-05 10:27:08,384 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:08] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 10:27:08,405 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:08] "GET /socket.io/?EIO=4&transport=polling&t=PXv87fn HTTP/1.1" 200 -
+2025-08-05 10:27:08,419 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:08] "POST /socket.io/?EIO=4&transport=polling&t=PXv87g0&sid=NqfzBQQVLtEuOAo3AAAC HTTP/1.1" 200 -
+2025-08-05 10:27:08,426 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:08] "GET /socket.io/?EIO=4&transport=polling&t=PXv87g1&sid=NqfzBQQVLtEuOAo3AAAC HTTP/1.1" 200 -
+2025-08-05 10:27:11,353 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:11] "GET /socket.io/?EIO=4&transport=websocket&sid=NqfzBQQVLtEuOAo3AAAC HTTP/1.1" 200 -
+2025-08-05 10:27:11,367 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:11] "GET /admin HTTP/1.1" 200 -
+2025-08-05 10:27:19,739 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 10:27:19,739 - INFO - Camera instance created
+2025-08-05 10:27:19,912 - INFO - Webcam démarrée
+2025-08-05 10:27:20,041 - INFO - Stream démarré
+2025-08-05 10:27:20,042 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:20] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 10:27:29,877 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:29] "GET /socket.io/?EIO=4&transport=websocket&sid=tQ8KFKvBrCQ2Zxz1AAAA HTTP/1.1" 200 -
+2025-08-05 10:27:30,080 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:30] "GET /stream HTTP/1.1" 200 -
+2025-08-05 10:27:30,194 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:30] "GET /socket.io/?EIO=4&transport=polling&t=PXv8CrB HTTP/1.1" 200 -
+2025-08-05 10:27:30,223 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:30] "POST /socket.io/?EIO=4&transport=polling&t=PXv8Crb&sid=Itdf4iyFBdl1C_PbAAAE HTTP/1.1" 200 -
+2025-08-05 10:27:30,226 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:30] "GET /socket.io/?EIO=4&transport=polling&t=PXv8Crc&sid=Itdf4iyFBdl1C_PbAAAE HTTP/1.1" 200 -
+2025-08-05 10:27:30,247 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:30] "GET /socket.io/?EIO=4&transport=polling&t=PXv8Cs1&sid=Itdf4iyFBdl1C_PbAAAE HTTP/1.1" 200 -
+2025-08-05 10:27:31,115 - INFO - 192.168.1.147 - - [05/Aug/2025 10:27:31] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 10:27:44,615 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 10:27:44,618 - ERROR - Erreur : impossible de lire le frame
+2025-08-05 10:27:44,618 - INFO - Webcam arrêtée
+2025-08-05 10:27:44,618 - INFO - Webcam arrêtée
+2025-08-05 10:27:44,723 - INFO - Stream arrêté
+2025-08-05 10:27:44,724 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:44] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 10:27:54,875 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:54] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 10:27:54,897 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:54] "GET /socket.io/?EIO=4&transport=polling&t=PXv8J0A HTTP/1.1" 200 -
+2025-08-05 10:27:54,923 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:54] "POST /socket.io/?EIO=4&transport=polling&t=PXv8J0U&sid=rjEbYIn6Kcg7COz4AAAG HTTP/1.1" 200 -
+2025-08-05 10:27:54,928 - INFO - 127.0.0.1 - - [05/Aug/2025 10:27:54] "GET /socket.io/?EIO=4&transport=polling&t=PXv8J0W&sid=rjEbYIn6Kcg7COz4AAAG HTTP/1.1" 200 -
+2025-08-05 10:28:01,279 - DEBUG - Tentative de promotion de l'utilisateur ID 2
+2025-08-05 10:28:01,397 - INFO - Utilisateur hashirama (ID 2) promu administrateur
+2025-08-05 10:28:01,398 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:01] "[35m[1mPOST /api/promote_user/2 HTTP/1.1[0m" 204 -
+2025-08-05 10:28:09,831 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:09] "GET /socket.io/?EIO=4&transport=websocket&sid=rjEbYIn6Kcg7COz4AAAG HTTP/1.1" 200 -
+2025-08-05 10:28:09,857 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:09] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 10:28:09,882 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:09] "GET /socket.io/?EIO=4&transport=polling&t=PXv8MgH HTTP/1.1" 200 -
+2025-08-05 10:28:09,901 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:09] "POST /socket.io/?EIO=4&transport=polling&t=PXv8Mgb&sid=0Otzxi_EncNIX9NqAAAI HTTP/1.1" 200 -
+2025-08-05 10:28:09,903 - INFO - 127.0.0.1 - - [05/Aug/2025 10:28:09] "GET /socket.io/?EIO=4&transport=polling&t=PXv8Mgc&sid=0Otzxi_EncNIX9NqAAAI HTTP/1.1" 200 -
+2025-08-05 10:28:22,770 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:22] "GET /socket.io/?EIO=4&transport=websocket&sid=Itdf4iyFBdl1C_PbAAAE HTTP/1.1" 200 -
+2025-08-05 10:28:22,897 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:22] "GET /stream HTTP/1.1" 200 -
+2025-08-05 10:28:22,976 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:22] "GET /socket.io/?EIO=4&transport=polling&t=PXv8Pjz HTTP/1.1" 200 -
+2025-08-05 10:28:23,001 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:23] "POST /socket.io/?EIO=4&transport=polling&t=PXv8PkH&sid=9GNbDQ1FsoAVRK-MAAAK HTTP/1.1" 200 -
+2025-08-05 10:28:23,004 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:23] "GET /socket.io/?EIO=4&transport=polling&t=PXv8PkH.0&sid=9GNbDQ1FsoAVRK-MAAAK HTTP/1.1" 200 -
+2025-08-05 10:28:25,764 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:25] "GET /socket.io/?EIO=4&transport=websocket&sid=9GNbDQ1FsoAVRK-MAAAK HTTP/1.1" 200 -
+2025-08-05 10:28:25,854 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:25] "GET /stream HTTP/1.1" 200 -
+2025-08-05 10:28:25,921 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:25] "GET /socket.io/?EIO=4&transport=polling&t=PXv8QRx HTTP/1.1" 200 -
+2025-08-05 10:28:25,979 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:25] "POST /socket.io/?EIO=4&transport=polling&t=PXv8QSp&sid=yBveJ26b8sjdNrWaAAAM HTTP/1.1" 200 -
+2025-08-05 10:28:25,980 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:25] "GET /socket.io/?EIO=4&transport=polling&t=PXv8QSp.0&sid=yBveJ26b8sjdNrWaAAAM HTTP/1.1" 200 -
+2025-08-05 10:28:28,349 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:28] "GET /socket.io/?EIO=4&transport=websocket&sid=yBveJ26b8sjdNrWaAAAM HTTP/1.1" 200 -
+2025-08-05 10:28:28,364 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:28] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 10:28:28,430 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:28] "GET /socket.io/?EIO=4&transport=polling&t=PXv8R2e HTTP/1.1" 200 -
+2025-08-05 10:28:28,450 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:28] "POST /socket.io/?EIO=4&transport=polling&t=PXv8R3R&sid=ilto5VlhiGWWa4f-AAAO HTTP/1.1" 200 -
+2025-08-05 10:28:28,452 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:28] "GET /socket.io/?EIO=4&transport=polling&t=PXv8R3S&sid=ilto5VlhiGWWa4f-AAAO HTTP/1.1" 200 -
+2025-08-05 10:28:32,171 - DEBUG - Requête reçue pour /api/notifications/1/read
+2025-08-05 10:28:32,269 - INFO - Notification 1 marquée comme lue
+2025-08-05 10:28:32,270 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:32] "[35m[1mPOST /api/notifications/1/read HTTP/1.1[0m" 204 -
+2025-08-05 10:28:35,696 - DEBUG - Requête reçue pour /api/notifications/1/read
+2025-08-05 10:28:35,697 - INFO - Notification 1 marquée comme lue
+2025-08-05 10:28:35,698 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:35] "[35m[1mPOST /api/notifications/1/read HTTP/1.1[0m" 204 -
+2025-08-05 10:28:38,956 - DEBUG - Requête reçue pour /api/notifications/1/delete
+2025-08-05 10:28:39,103 - INFO - Notification 1 supprimée
+2025-08-05 10:28:39,103 - INFO - 192.168.1.147 - - [05/Aug/2025 10:28:39] "[35m[1mPOST /api/notifications/1/delete HTTP/1.1[0m" 204 -
+2025-08-05 10:43:59,804 - INFO - 192.168.1.147 - - [05/Aug/2025 10:43:59] "GET /socket.io/?EIO=4&transport=websocket&sid=ilto5VlhiGWWa4f-AAAO HTTP/1.1" 200 -
+2025-08-05 10:46:06,414 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:06] "GET /socket.io/?EIO=4&transport=polling&t=PXvCT5C HTTP/1.1" 200 -
+2025-08-05 10:46:06,440 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:06] "POST /socket.io/?EIO=4&transport=polling&t=PXvCTP-&sid=j8Qw6hH5qarsRXvcAAAQ HTTP/1.1" 200 -
+2025-08-05 10:46:06,443 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:06] "GET /socket.io/?EIO=4&transport=polling&t=PXvCTP_&sid=j8Qw6hH5qarsRXvcAAAQ HTTP/1.1" 200 -
+2025-08-05 10:46:09,286 - DEBUG - Requête reçue pour /api/notifications/1/delete
+2025-08-05 10:46:09,287 - ERROR - Notification non trouvée ou accès non autorisé: 1
+2025-08-05 10:46:09,287 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:09] "[31m[1mPOST /api/notifications/1/delete HTTP/1.1[0m" 403 -
+2025-08-05 10:46:22,641 - DEBUG - Requête reçue pour /api/notifications/1/delete
+2025-08-05 10:46:22,642 - ERROR - Notification non trouvée ou accès non autorisé: 1
+2025-08-05 10:46:22,642 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:22] "[31m[1mPOST /api/notifications/1/delete HTTP/1.1[0m" 403 -
+2025-08-05 10:46:55,622 - INFO - 192.168.1.147 - - [05/Aug/2025 10:46:55] "GET /socket.io/?EIO=4&transport=websocket&sid=j8Qw6hH5qarsRXvcAAAQ HTTP/1.1" 200 -
+2025-08-05 10:52:21,090 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:21] "GET /socket.io/?EIO=4&transport=polling&t=PXvDutv HTTP/1.1" 200 -
+2025-08-05 10:52:21,118 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:21] "POST /socket.io/?EIO=4&transport=polling&t=PXvDuuI&sid=h29x5ANd2-V8AOejAAAS HTTP/1.1" 200 -
+2025-08-05 10:52:21,119 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:21] "GET /socket.io/?EIO=4&transport=polling&t=PXvDuuJ&sid=h29x5ANd2-V8AOejAAAS HTTP/1.1" 200 -
+2025-08-05 10:52:27,636 - DEBUG - Requête reçue pour /api/notifications/1/read
+2025-08-05 10:52:27,637 - ERROR - Notification non trouvée ou accès non autorisé: 1
+2025-08-05 10:52:27,638 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:27] "[31m[1mPOST /api/notifications/1/read HTTP/1.1[0m" 403 -
+2025-08-05 10:52:43,742 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:43] "GET /socket.io/?EIO=4&transport=websocket&sid=h29x5ANd2-V8AOejAAAS HTTP/1.1" 200 -
+2025-08-05 10:52:43,760 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 10:52:43,778 - INFO - 192.168.1.147 - - [05/Aug/2025 10:52:43] "GET /login HTTP/1.1" 200 -
+2025-08-05 10:53:03,505 - INFO - 192.168.1.147 - - [05/Aug/2025 10:53:03] "GET /register HTTP/1.1" 200 -
+2025-08-05 10:53:39,329 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 10:53:40,100 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 10:53:40,342 - INFO - 192.168.1.147 - - [05/Aug/2025 10:53:40] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 10:53:40,353 - INFO - 192.168.1.147 - - [05/Aug/2025 10:53:40] "GET /login HTTP/1.1" 200 -
+2025-08-05 10:54:03,682 - INFO - 192.168.1.147 - - [05/Aug/2025 10:54:03] "GET /register HTTP/1.1" 200 -
+2025-08-05 10:55:00,952 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 10:55:01,890 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 10:55:02,133 - INFO - 192.168.1.147 - - [05/Aug/2025 10:55:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 10:55:02,147 - INFO - 192.168.1.147 - - [05/Aug/2025 10:55:02] "GET /login HTTP/1.1" 200 -
+2025-08-05 10:56:50,850 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 10:56:51,756 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 10:56:52,023 - INFO - 192.168.1.147 - - [05/Aug/2025 10:56:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 10:56:52,035 - INFO - 192.168.1.147 - - [05/Aug/2025 10:56:52] "GET / HTTP/1.1" 200 -
+2025-08-05 10:57:34,895 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:34] "GET /socket.io/?EIO=4&transport=websocket&sid=0Otzxi_EncNIX9NqAAAI HTTP/1.1" 200 -
+2025-08-05 10:57:34,900 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:34] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 10:57:34,926 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:34] "GET /socket.io/?EIO=4&transport=polling&t=PXvF5b8 HTTP/1.1" 200 -
+2025-08-05 10:57:34,941 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:34] "POST /socket.io/?EIO=4&transport=polling&t=PXvF5bO&sid=AeW0Zmy4ghnTl-q6AAAU HTTP/1.1" 200 -
+2025-08-05 10:57:34,945 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:34] "GET /socket.io/?EIO=4&transport=polling&t=PXvF5bP&sid=AeW0Zmy4ghnTl-q6AAAU HTTP/1.1" 200 -
+2025-08-05 10:57:52,147 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:52] "GET /socket.io/?EIO=4&transport=websocket&sid=AeW0Zmy4ghnTl-q6AAAU HTTP/1.1" 200 -
+2025-08-05 10:57:52,162 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:52] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 10:57:52,183 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:52] "GET /socket.io/?EIO=4&transport=polling&t=PXvF9oo HTTP/1.1" 200 -
+2025-08-05 10:57:52,203 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:52] "POST /socket.io/?EIO=4&transport=polling&t=PXvF9p2&sid=TlR6uBcjOZ-v5NhaAAAW HTTP/1.1" 200 -
+2025-08-05 10:57:52,204 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:52] "GET /socket.io/?EIO=4&transport=polling&t=PXvF9p3&sid=TlR6uBcjOZ-v5NhaAAAW HTTP/1.1" 200 -
+2025-08-05 10:57:56,526 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:56] "GET /socket.io/?EIO=4&transport=websocket&sid=TlR6uBcjOZ-v5NhaAAAW HTTP/1.1" 200 -
+2025-08-05 10:57:56,540 - INFO - 127.0.0.1 - - [05/Aug/2025 10:57:56] "GET /admin HTTP/1.1" 200 -
+2025-08-05 10:58:00,849 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 10:58:01,022 - INFO - Webcam démarrée
+2025-08-05 10:58:01,112 - INFO - Stream démarré
+2025-08-05 10:58:01,114 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:01] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 10:58:05,808 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:05] "GET / HTTP/1.1" 200 -
+2025-08-05 10:58:07,493 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:07] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 10:58:07,507 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:07] "GET / HTTP/1.1" 200 -
+2025-08-05 10:58:11,540 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:11] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 10:58:11,566 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:11] "GET /socket.io/?EIO=4&transport=polling&t=PXvFEXf HTTP/1.1" 200 -
+2025-08-05 10:58:11,581 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:11] "POST /socket.io/?EIO=4&transport=polling&t=PXvFEXv&sid=83j_JyPV6-rpvBECAAAY HTTP/1.1" 200 -
+2025-08-05 10:58:11,584 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:11] "GET /socket.io/?EIO=4&transport=polling&t=PXvFEXw&sid=83j_JyPV6-rpvBECAAAY HTTP/1.1" 200 -
+2025-08-05 10:58:11,593 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:11] "GET /socket.io/?EIO=4&transport=polling&t=PXvFEY3&sid=83j_JyPV6-rpvBECAAAY HTTP/1.1" 200 -
+2025-08-05 10:58:14,373 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "GET /socket.io/?EIO=4&transport=websocket&sid=83j_JyPV6-rpvBECAAAY HTTP/1.1" 200 -
+2025-08-05 10:58:14,592 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "[32mPOST /manage_request/1/accept HTTP/1.1[0m" 302 -
+2025-08-05 10:58:14,600 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 10:58:14,646 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "GET /socket.io/?EIO=4&transport=polling&t=PXvFFHo HTTP/1.1" 200 -
+2025-08-05 10:58:14,696 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "POST /socket.io/?EIO=4&transport=polling&t=PXvFFIb&sid=R2b8SsDl9MbmD1pVAAAa HTTP/1.1" 200 -
+2025-08-05 10:58:14,698 - INFO - 127.0.0.1 - - [05/Aug/2025 10:58:14] "GET /socket.io/?EIO=4&transport=polling&t=PXvFFIc&sid=R2b8SsDl9MbmD1pVAAAa HTTP/1.1" 200 -
+2025-08-05 10:58:18,195 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:18] "GET /stream HTTP/1.1" 200 -
+2025-08-05 10:58:18,264 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:18] "GET /socket.io/?EIO=4&transport=polling&t=PXvFG4G HTTP/1.1" 200 -
+2025-08-05 10:58:18,296 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:18] "POST /socket.io/?EIO=4&transport=polling&t=PXvFG5A&sid=EFFGTUWoA8FSV_iiAAAc HTTP/1.1" 200 -
+2025-08-05 10:58:18,299 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:18] "GET /socket.io/?EIO=4&transport=polling&t=PXvFG5B&sid=EFFGTUWoA8FSV_iiAAAc HTTP/1.1" 200 -
+2025-08-05 10:58:19,245 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:19] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 10:58:21,685 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "GET /socket.io/?EIO=4&transport=websocket&sid=EFFGTUWoA8FSV_iiAAAc HTTP/1.1" 200 -
+2025-08-05 10:58:21,746 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 10:58:21,815 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "GET /socket.io/?EIO=4&transport=polling&t=PXvFGxl HTTP/1.1" 200 -
+2025-08-05 10:58:21,888 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "POST /socket.io/?EIO=4&transport=polling&t=PXvFGyu&sid=xIyNNm_p-6Mdp1sIAAAe HTTP/1.1" 200 -
+2025-08-05 10:58:21,889 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "GET /socket.io/?EIO=4&transport=polling&t=PXvFGyv&sid=xIyNNm_p-6Mdp1sIAAAe HTTP/1.1" 200 -
+2025-08-05 10:58:21,950 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:21] "GET /socket.io/?EIO=4&transport=polling&t=PXvFG-0&sid=xIyNNm_p-6Mdp1sIAAAe HTTP/1.1" 200 -
+2025-08-05 10:58:23,511 - DEBUG - Requête reçue pour /api/notifications/2/read
+2025-08-05 10:58:23,599 - INFO - Notification 2 marquée comme lue
+2025-08-05 10:58:23,600 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:23] "[35m[1mPOST /api/notifications/2/read HTTP/1.1[0m" 204 -
+2025-08-05 10:58:27,818 - DEBUG - Requête reçue pour /api/notifications/2/read
+2025-08-05 10:58:27,820 - INFO - Notification 2 marquée comme lue
+2025-08-05 10:58:27,820 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:27] "[35m[1mPOST /api/notifications/2/read HTTP/1.1[0m" 204 -
+2025-08-05 10:58:29,171 - DEBUG - Requête reçue pour /api/notifications/2/delete
+2025-08-05 10:58:29,245 - INFO - Notification 2 supprimée
+2025-08-05 10:58:29,246 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:29] "[35m[1mPOST /api/notifications/2/delete HTTP/1.1[0m" 204 -
+2025-08-05 10:58:30,341 - DEBUG - Requête reçue pour /api/notifications/2/read
+2025-08-05 10:58:30,343 - ERROR - Notification non trouvée ou accès non autorisé: 2
+2025-08-05 10:58:30,344 - INFO - 192.168.1.147 - - [05/Aug/2025 10:58:30] "[31m[1mPOST /api/notifications/2/read HTTP/1.1[0m" 403 -
+2025-08-05 10:59:16,784 - DEBUG - Requête reçue pour /api/notifications/2/read
+2025-08-05 10:59:16,785 - ERROR - Notification non trouvée ou accès non autorisé: 2
+2025-08-05 10:59:16,786 - INFO - 192.168.1.147 - - [05/Aug/2025 10:59:16] "[31m[1mPOST /api/notifications/2/read HTTP/1.1[0m" 403 -
+2025-08-05 10:59:31,822 - INFO - 192.168.1.147 - - [05/Aug/2025 10:59:31] "GET /socket.io/?EIO=4&transport=websocket&sid=xIyNNm_p-6Mdp1sIAAAe HTTP/1.1" 200 -
+2025-08-05 11:01:52,510 - INFO - 192.168.1.147 - - [05/Aug/2025 11:01:52] "GET /socket.io/?EIO=4&transport=polling&t=PXvG4OJ HTTP/1.1" 200 -
+2025-08-05 11:01:52,539 - INFO - 192.168.1.147 - - [05/Aug/2025 11:01:52] "POST /socket.io/?EIO=4&transport=polling&t=PXvG4Ok&sid=vB6Gd7GU77VGz8ZCAAAg HTTP/1.1" 200 -
+2025-08-05 11:01:52,540 - INFO - 192.168.1.147 - - [05/Aug/2025 11:01:52] "GET /socket.io/?EIO=4&transport=polling&t=PXvG4Ol&sid=vB6Gd7GU77VGz8ZCAAAg HTTP/1.1" 200 -
+2025-08-05 11:09:03,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-05 11:09:03,954 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 11:09:03,954 - INFO -  * Restarting with stat
+2025-08-05 11:09:04,375 - WARNING -  * Debugger is active!
+2025-08-05 11:09:04,376 - INFO -  * Debugger PIN: 623-635-536
+2025-08-05 11:09:04,383 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:04] "GET /socket.io/?EIO=4&transport=polling&t=PXvHjYF HTTP/1.1" 200 -
+2025-08-05 11:09:04,448 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:04] "POST /socket.io/?EIO=4&transport=polling&t=PXvHjrO&sid=rT6AhUwMiVPue8YFAAAA HTTP/1.1" 200 -
+2025-08-05 11:09:04,493 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:04] "GET /socket.io/?EIO=4&transport=polling&t=PXvHjrP&sid=rT6AhUwMiVPue8YFAAAA HTTP/1.1" 200 -
+2025-08-05 11:09:08,232 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:08] "GET /socket.io/?EIO=4&transport=polling&t=PXvHks4 HTTP/1.1" 200 -
+2025-08-05 11:09:08,240 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:08] "POST /socket.io/?EIO=4&transport=polling&t=PXvHksB&sid=0cVUTul8_3uePC39AAAC HTTP/1.1" 200 -
+2025-08-05 11:09:08,240 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:08] "GET /socket.io/?EIO=4&transport=polling&t=PXvHksC&sid=0cVUTul8_3uePC39AAAC HTTP/1.1" 200 -
+2025-08-05 11:09:35,354 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:35] "GET /socket.io/?EIO=4&transport=websocket&sid=0cVUTul8_3uePC39AAAC HTTP/1.1" 200 -
+2025-08-05 11:09:35,388 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:35] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:09:35,406 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:35] "GET /socket.io/?EIO=4&transport=polling&t=PXvHrUh HTTP/1.1" 200 -
+2025-08-05 11:09:35,426 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:35] "POST /socket.io/?EIO=4&transport=polling&t=PXvHrU-&sid=OeSjZ_0TQhGg3K_HAAAE HTTP/1.1" 200 -
+2025-08-05 11:09:35,428 - INFO - 127.0.0.1 - - [05/Aug/2025 11:09:35] "GET /socket.io/?EIO=4&transport=polling&t=PXvHrU_&sid=OeSjZ_0TQhGg3K_HAAAE HTTP/1.1" 200 -
+2025-08-05 11:09:41,878 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:41] "GET /socket.io/?EIO=4&transport=websocket&sid=rT6AhUwMiVPue8YFAAAA HTTP/1.1" 200 -
+2025-08-05 11:09:41,917 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:41] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:09:42,022 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:42] "GET /socket.io/?EIO=4&transport=polling&t=PXvHt0V HTTP/1.1" 200 -
+2025-08-05 11:09:42,066 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:42] "POST /socket.io/?EIO=4&transport=polling&t=PXvHt15&sid=mKKdz2wnOI9jmXkrAAAG HTTP/1.1" 200 -
+2025-08-05 11:09:42,069 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:42] "GET /socket.io/?EIO=4&transport=polling&t=PXvHt16&sid=mKKdz2wnOI9jmXkrAAAG HTTP/1.1" 200 -
+2025-08-05 11:09:43,762 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:43] "GET /socket.io/?EIO=4&transport=websocket&sid=mKKdz2wnOI9jmXkrAAAG HTTP/1.1" 200 -
+2025-08-05 11:09:43,788 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:43] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:09:43,946 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:43] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtUY HTTP/1.1" 200 -
+2025-08-05 11:09:43,990 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:43] "POST /socket.io/?EIO=4&transport=polling&t=PXvHtV8&sid=oBDcqVCcgVxpMFgXAAAI HTTP/1.1" 200 -
+2025-08-05 11:09:43,992 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:43] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtV9&sid=oBDcqVCcgVxpMFgXAAAI HTTP/1.1" 200 -
+2025-08-05 11:09:44,714 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:44] "GET /socket.io/?EIO=4&transport=websocket&sid=oBDcqVCcgVxpMFgXAAAI HTTP/1.1" 200 -
+2025-08-05 11:09:44,724 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:44] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:09:44,778 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:44] "GET /socket.io/?EIO=4&transport=polling&t=PXvHthZ HTTP/1.1" 200 -
+2025-08-05 11:09:44,810 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:44] "POST /socket.io/?EIO=4&transport=polling&t=PXvHthx&sid=7IZwzfPqq5HnWUK_AAAK HTTP/1.1" 200 -
+2025-08-05 11:09:44,816 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:44] "GET /socket.io/?EIO=4&transport=polling&t=PXvHthy&sid=7IZwzfPqq5HnWUK_AAAK HTTP/1.1" 200 -
+2025-08-05 11:09:45,009 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=websocket&sid=7IZwzfPqq5HnWUK_AAAK HTTP/1.1" 200 -
+2025-08-05 11:09:45,027 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:09:45,093 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtmC HTTP/1.1" 200 -
+2025-08-05 11:09:45,127 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "POST /socket.io/?EIO=4&transport=polling&t=PXvHtmr&sid=3irdV524rUcVl3SrAAAM HTTP/1.1" 200 -
+2025-08-05 11:09:45,128 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtmr.0&sid=3irdV524rUcVl3SrAAAM HTTP/1.1" 200 -
+2025-08-05 11:09:45,222 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=websocket&sid=3irdV524rUcVl3SrAAAM HTTP/1.1" 200 -
+2025-08-05 11:09:45,235 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:09:45,283 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtpS HTTP/1.1" 200 -
+2025-08-05 11:09:45,308 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "POST /socket.io/?EIO=4&transport=polling&t=PXvHtpn&sid=6mC9WD3XgnOnfqObAAAO HTTP/1.1" 200 -
+2025-08-05 11:09:45,313 - INFO - 192.168.1.147 - - [05/Aug/2025 11:09:45] "GET /socket.io/?EIO=4&transport=polling&t=PXvHtpn.0&sid=6mC9WD3XgnOnfqObAAAO HTTP/1.1" 200 -
+2025-08-05 11:10:06,276 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:06] "GET /socket.io/?EIO=4&transport=websocket&sid=6mC9WD3XgnOnfqObAAAO HTTP/1.1" 200 -
+2025-08-05 11:10:06,306 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 11:10:06,323 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:06] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:10:09,640 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:09] "GET /register HTTP/1.1" 200 -
+2025-08-05 11:10:40,038 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:10:44,164 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:10:45,710 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:10:45,947 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 11:10:45,996 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:10:46,001 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:46] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 11:10:46,027 - INFO - 192.168.1.147 - - [05/Aug/2025 11:10:46] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:11:01,841 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:11:02,878 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:11:02,882 - INFO - 192.168.1.147 - - [05/Aug/2025 11:11:02] "POST /login HTTP/1.1" 200 -
+2025-08-05 11:11:12,141 - INFO - 127.0.0.1 - - [05/Aug/2025 11:11:12] "GET /socket.io/?EIO=4&transport=websocket&sid=OeSjZ_0TQhGg3K_HAAAE HTTP/1.1" 200 -
+2025-08-05 11:11:12,145 - INFO - 127.0.0.1 - - [05/Aug/2025 11:11:12] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:11:12,173 - INFO - 127.0.0.1 - - [05/Aug/2025 11:11:12] "GET /socket.io/?EIO=4&transport=polling&t=PXvID6d HTTP/1.1" 200 -
+2025-08-05 11:11:12,188 - INFO - 127.0.0.1 - - [05/Aug/2025 11:11:12] "POST /socket.io/?EIO=4&transport=polling&t=PXvID6r&sid=cH5i-_oQXNHW3NWAAAAQ HTTP/1.1" 200 -
+2025-08-05 11:11:12,190 - INFO - 127.0.0.1 - - [05/Aug/2025 11:11:12] "GET /socket.io/?EIO=4&transport=polling&t=PXvID6s&sid=cH5i-_oQXNHW3NWAAAAQ HTTP/1.1" 200 -
+2025-08-05 11:11:27,768 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:11:28,596 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:11:28,891 - INFO - 192.168.1.147 - - [05/Aug/2025 11:11:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:11:28,912 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:11:29,660 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:11:29,663 - INFO - 192.168.1.147 - - [05/Aug/2025 11:11:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:11:29,752 - INFO - 192.168.1.147 - - [05/Aug/2025 11:11:29] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:12:20,333 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:12:20,964 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:12:21,705 - INFO - 192.168.1.147 - - [05/Aug/2025 11:12:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:12:21,721 - INFO - 192.168.1.147 - - [05/Aug/2025 11:12:21] "GET / HTTP/1.1" 200 -
+2025-08-05 11:13:25,037 - INFO - 192.168.1.147 - - [05/Aug/2025 11:13:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 11:13:25,051 - INFO - 192.168.1.147 - - [05/Aug/2025 11:13:25] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:13:27,340 - INFO - 192.168.1.147 - - [05/Aug/2025 11:13:27] "GET /register HTTP/1.1" 200 -
+2025-08-05 11:15:00,809 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:15:01,434 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:15:01,739 - INFO - 192.168.1.147 - - [05/Aug/2025 11:15:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 11:15:01,805 - INFO - 192.168.1.147 - - [05/Aug/2025 11:15:01] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:15:11,341 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:11] "GET /socket.io/?EIO=4&transport=websocket&sid=cH5i-_oQXNHW3NWAAAAQ HTTP/1.1" 200 -
+2025-08-05 11:15:11,345 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:11] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:15:11,368 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:11] "GET /socket.io/?EIO=4&transport=polling&t=PXvJ7W3 HTTP/1.1" 200 -
+2025-08-05 11:15:11,380 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:11] "POST /socket.io/?EIO=4&transport=polling&t=PXvJ7WI&sid=Mt2-oDOUvr4NvcNTAAAS HTTP/1.1" 200 -
+2025-08-05 11:15:11,385 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:11] "GET /socket.io/?EIO=4&transport=polling&t=PXvJ7WJ&sid=Mt2-oDOUvr4NvcNTAAAS HTTP/1.1" 200 -
+2025-08-05 11:15:34,513 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:15:35,123 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:15:35,384 - INFO - 192.168.1.147 - - [05/Aug/2025 11:15:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:15:35,510 - INFO - 192.168.1.147 - - [05/Aug/2025 11:15:35] "GET / HTTP/1.1" 200 -
+2025-08-05 11:15:45,878 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:45] "GET /socket.io/?EIO=4&transport=websocket&sid=Mt2-oDOUvr4NvcNTAAAS HTTP/1.1" 200 -
+2025-08-05 11:15:45,895 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:45] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:15:48,788 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 11:15:48,789 - WARNING - Aucun stream actif
+2025-08-05 11:15:48,789 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:48] "[31m[1mPOST /api/control_stream HTTP/1.1[0m" 400 -
+2025-08-05 11:15:53,705 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 11:15:53,705 - INFO - Camera instance created
+2025-08-05 11:15:53,881 - INFO - Webcam démarrée
+2025-08-05 11:15:54,032 - INFO - Stream démarré
+2025-08-05 11:15:54,034 - INFO - 127.0.0.1 - - [05/Aug/2025 11:15:54] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 11:15:59,183 - INFO - 192.168.1.147 - - [05/Aug/2025 11:15:59] "GET / HTTP/1.1" 200 -
+2025-08-05 11:16:00,831 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:00] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 11:16:00,909 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:00] "GET / HTTP/1.1" 200 -
+2025-08-05 11:16:06,044 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:06] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:16:06,074 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:06] "GET /socket.io/?EIO=4&transport=polling&t=PXvJKsn HTTP/1.1" 200 -
+2025-08-05 11:16:06,087 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:06] "POST /socket.io/?EIO=4&transport=polling&t=PXvJKt1&sid=bxahYYkdXpuBr8pDAAAU HTTP/1.1" 200 -
+2025-08-05 11:16:06,089 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:06] "GET /socket.io/?EIO=4&transport=polling&t=PXvJKt2&sid=bxahYYkdXpuBr8pDAAAU HTTP/1.1" 200 -
+2025-08-05 11:16:13,562 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "GET /socket.io/?EIO=4&transport=websocket&sid=bxahYYkdXpuBr8pDAAAU HTTP/1.1" 200 -
+2025-08-05 11:16:13,711 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "[32mPOST /manage_request/3/accept HTTP/1.1[0m" 302 -
+2025-08-05 11:16:13,717 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:16:13,737 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "GET /socket.io/?EIO=4&transport=polling&t=PXvJMkb HTTP/1.1" 200 -
+2025-08-05 11:16:13,748 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "POST /socket.io/?EIO=4&transport=polling&t=PXvJMkm&sid=d2fOhF1VNZCmVDlrAAAW HTTP/1.1" 200 -
+2025-08-05 11:16:13,749 - INFO - 127.0.0.1 - - [05/Aug/2025 11:16:13] "GET /socket.io/?EIO=4&transport=polling&t=PXvJMkn&sid=d2fOhF1VNZCmVDlrAAAW HTTP/1.1" 200 -
+2025-08-05 11:16:16,354 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:16] "GET /stream HTTP/1.1" 200 -
+2025-08-05 11:16:16,437 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:16] "GET /socket.io/?EIO=4&transport=polling&t=PXvJNIr HTTP/1.1" 200 -
+2025-08-05 11:16:16,469 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:16] "POST /socket.io/?EIO=4&transport=polling&t=PXvJNJh&sid=D5Buip3jMoI-IJ71AAAY HTTP/1.1" 200 -
+2025-08-05 11:16:16,479 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:16] "GET /socket.io/?EIO=4&transport=polling&t=PXvJNJi&sid=D5Buip3jMoI-IJ71AAAY HTTP/1.1" 200 -
+2025-08-05 11:16:17,430 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:17] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 11:16:19,253 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:19] "GET /socket.io/?EIO=4&transport=websocket&sid=D5Buip3jMoI-IJ71AAAY HTTP/1.1" 200 -
+2025-08-05 11:16:19,275 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:19] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:16:19,356 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:19] "GET /socket.io/?EIO=4&transport=polling&t=PXvJO0I HTTP/1.1" 200 -
+2025-08-05 11:16:19,385 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:19] "POST /socket.io/?EIO=4&transport=polling&t=PXvJO1C&sid=45H1ojPBa41JvSE8AAAa HTTP/1.1" 200 -
+2025-08-05 11:16:19,387 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:19] "GET /socket.io/?EIO=4&transport=polling&t=PXvJO1D&sid=45H1ojPBa41JvSE8AAAa HTTP/1.1" 200 -
+2025-08-05 11:16:22,509 - DEBUG - Requête reçue pour /api/notifications/3/read, user_id=6
+2025-08-05 11:16:22,510 - DEBUG - Notification trouvée: <sqlite3.Row object at 0x756c04b95e40>
+2025-08-05 11:16:22,609 - INFO - Notification 3 marquée comme lue
+2025-08-05 11:16:22,610 - DEBUG - Événement SocketIO 'notification_updated' émis pour notification_id=3, action=read
+2025-08-05 11:16:22,614 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:22] "[35m[1mPOST /api/notifications/3/read HTTP/1.1[0m" 204 -
+2025-08-05 11:16:29,340 - DEBUG - Requête reçue pour /api/notifications/3/read, user_id=6
+2025-08-05 11:16:29,341 - DEBUG - Notification trouvée: <sqlite3.Row object at 0x756c04ba2110>
+2025-08-05 11:16:29,341 - INFO - Notification 3 marquée comme lue
+2025-08-05 11:16:29,342 - DEBUG - Événement SocketIO 'notification_updated' émis pour notification_id=3, action=read
+2025-08-05 11:16:29,342 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:29] "[35m[1mPOST /api/notifications/3/read HTTP/1.1[0m" 204 -
+2025-08-05 11:16:32,030 - DEBUG - Requête reçue pour /api/notifications/3/delete, user_id=6
+2025-08-05 11:16:32,031 - DEBUG - Notification trouvée: <sqlite3.Row object at 0x756c04ba3e80>
+2025-08-05 11:16:32,116 - INFO - Notification 3 supprimée
+2025-08-05 11:16:32,118 - DEBUG - Événement SocketIO 'notification_updated' émis pour notification_id=3, action=delete
+2025-08-05 11:16:32,119 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:32] "[35m[1mPOST /api/notifications/3/delete HTTP/1.1[0m" 204 -
+2025-08-05 11:16:34,309 - DEBUG - Requête reçue pour /api/notifications/3/read, user_id=6
+2025-08-05 11:16:34,310 - DEBUG - Notification trouvée: None
+2025-08-05 11:16:34,310 - ERROR - Notification ID 3 non trouvée
+2025-08-05 11:16:34,311 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:34] "[33mPOST /api/notifications/3/read HTTP/1.1[0m" 404 -
+2025-08-05 11:16:39,875 - DEBUG - Requête reçue pour /api/notifications/3/read, user_id=6
+2025-08-05 11:16:39,876 - DEBUG - Notification trouvée: None
+2025-08-05 11:16:39,876 - ERROR - Notification ID 3 non trouvée
+2025-08-05 11:16:39,877 - INFO - 192.168.1.147 - - [05/Aug/2025 11:16:39] "[33mPOST /api/notifications/3/read HTTP/1.1[0m" 404 -
+2025-08-05 11:26:16,433 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-05 11:26:16,434 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 11:26:16,434 - INFO -  * Restarting with stat
+2025-08-05 11:26:16,870 - WARNING -  * Debugger is active!
+2025-08-05 11:26:16,871 - INFO -  * Debugger PIN: 623-635-536
+2025-08-05 11:26:16,878 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:16] "GET /socket.io/?EIO=4&transport=polling&t=PXvLfOG HTTP/1.1" 200 -
+2025-08-05 11:26:16,901 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:16] "POST /socket.io/?EIO=4&transport=polling&t=PXvLfvR&sid=M8BQTxGhAs6qknJnAAAA HTTP/1.1" 200 -
+2025-08-05 11:26:16,906 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:16] "GET /socket.io/?EIO=4&transport=polling&t=PXvLfvT&sid=M8BQTxGhAs6qknJnAAAA HTTP/1.1" 200 -
+2025-08-05 11:26:19,023 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:19] "GET /socket.io/?EIO=4&transport=polling&t=PXvLgWA HTTP/1.1" 200 -
+2025-08-05 11:26:19,029 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:19] "POST /socket.io/?EIO=4&transport=polling&t=PXvLgWI&sid=y-hSJo3-D1oGZDTdAAAC HTTP/1.1" 200 -
+2025-08-05 11:26:19,030 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:19] "GET /socket.io/?EIO=4&transport=polling&t=PXvLgWI.0&sid=y-hSJo3-D1oGZDTdAAAC HTTP/1.1" 200 -
+2025-08-05 11:26:23,887 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:23] "GET /socket.io/?EIO=4&transport=websocket&sid=y-hSJo3-D1oGZDTdAAAC HTTP/1.1" 200 -
+2025-08-05 11:26:23,913 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:23] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:26:23,934 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:23] "GET /socket.io/?EIO=4&transport=polling&t=PXvLhiw HTTP/1.1" 200 -
+2025-08-05 11:26:23,952 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:23] "POST /socket.io/?EIO=4&transport=polling&t=PXvLhj8&sid=_BTRSCt0Z5bjsLc3AAAE HTTP/1.1" 200 -
+2025-08-05 11:26:23,953 - INFO - 127.0.0.1 - - [05/Aug/2025 11:26:23] "GET /socket.io/?EIO=4&transport=polling&t=PXvLhj9&sid=_BTRSCt0Z5bjsLc3AAAE HTTP/1.1" 200 -
+2025-08-05 11:26:29,806 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:29] "GET /socket.io/?EIO=4&transport=websocket&sid=M8BQTxGhAs6qknJnAAAA HTTP/1.1" 200 -
+2025-08-05 11:26:29,828 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:29] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:26:29,966 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:29] "GET /socket.io/?EIO=4&transport=polling&t=PXvLj5d HTTP/1.1" 200 -
+2025-08-05 11:26:30,009 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:30] "POST /socket.io/?EIO=4&transport=polling&t=PXvLj6B&sid=xX0aB_vxXWz6dc0fAAAG HTTP/1.1" 200 -
+2025-08-05 11:26:30,012 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:30] "GET /socket.io/?EIO=4&transport=polling&t=PXvLj6D&sid=xX0aB_vxXWz6dc0fAAAG HTTP/1.1" 200 -
+2025-08-05 11:26:30,041 - INFO - 192.168.1.147 - - [05/Aug/2025 11:26:30] "GET /socket.io/?EIO=4&transport=polling&t=PXvLj6j&sid=xX0aB_vxXWz6dc0fAAAG HTTP/1.1" 200 -
+2025-08-05 11:27:26,227 - INFO - 192.168.1.147 - - [05/Aug/2025 11:27:26] "GET /socket.io/?EIO=4&transport=websocket&sid=xX0aB_vxXWz6dc0fAAAG HTTP/1.1" 200 -
+2025-08-05 11:27:26,271 - INFO - 192.168.1.147 - - [05/Aug/2025 11:27:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 11:27:26,285 - INFO - 192.168.1.147 - - [05/Aug/2025 11:27:26] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:27:28,250 - INFO - 192.168.1.147 - - [05/Aug/2025 11:27:28] "GET /register HTTP/1.1" 200 -
+2025-08-05 11:28:28,997 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:28:29,649 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:28:29,902 - INFO - 192.168.1.147 - - [05/Aug/2025 11:28:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 11:28:29,965 - INFO - 192.168.1.147 - - [05/Aug/2025 11:28:29] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:28:35,097 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "GET /socket.io/?EIO=4&transport=websocket&sid=_BTRSCt0Z5bjsLc3AAAE HTTP/1.1" 200 -
+2025-08-05 11:28:35,106 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:28:35,128 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PXvMBkq HTTP/1.1" 200 -
+2025-08-05 11:28:35,146 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "POST /socket.io/?EIO=4&transport=polling&t=PXvMBl2&sid=SFVoMKNjv3Rdb8nGAAAI HTTP/1.1" 200 -
+2025-08-05 11:28:35,147 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PXvMBl3&sid=SFVoMKNjv3Rdb8nGAAAI HTTP/1.1" 200 -
+2025-08-05 11:28:35,155 - INFO - 127.0.0.1 - - [05/Aug/2025 11:28:35] "GET /socket.io/?EIO=4&transport=polling&t=PXvMBlH&sid=SFVoMKNjv3Rdb8nGAAAI HTTP/1.1" 200 -
+2025-08-05 11:28:59,288 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:28:59,912 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:29:00,165 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:29:00,281 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:00] "GET / HTTP/1.1" 200 -
+2025-08-05 11:29:07,469 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:07] "GET /socket.io/?EIO=4&transport=websocket&sid=SFVoMKNjv3Rdb8nGAAAI HTTP/1.1" 200 -
+2025-08-05 11:29:07,490 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:07] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:29:11,033 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 11:29:11,033 - INFO - Camera instance created
+2025-08-05 11:29:11,204 - INFO - Webcam démarrée
+2025-08-05 11:29:11,335 - INFO - Stream démarré
+2025-08-05 11:29:11,335 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:11] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 11:29:15,664 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:15] "GET / HTTP/1.1" 200 -
+2025-08-05 11:29:17,414 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:17] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 11:29:17,432 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:17] "GET / HTTP/1.1" 200 -
+2025-08-05 11:29:20,878 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:20] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:29:20,900 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:20] "GET /socket.io/?EIO=4&transport=polling&t=PXvMMw0 HTTP/1.1" 200 -
+2025-08-05 11:29:20,918 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:20] "POST /socket.io/?EIO=4&transport=polling&t=PXvMMwH&sid=USnXIjouyTUCP71KAAAK HTTP/1.1" 200 -
+2025-08-05 11:29:20,923 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:20] "GET /socket.io/?EIO=4&transport=polling&t=PXvMMwJ&sid=USnXIjouyTUCP71KAAAK HTTP/1.1" 200 -
+2025-08-05 11:29:24,270 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "GET /socket.io/?EIO=4&transport=websocket&sid=USnXIjouyTUCP71KAAAK HTTP/1.1" 200 -
+2025-08-05 11:29:24,460 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "[32mPOST /manage_request/4/accept HTTP/1.1[0m" 302 -
+2025-08-05 11:29:24,470 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:29:24,520 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PXvMNoQ HTTP/1.1" 200 -
+2025-08-05 11:29:24,534 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "POST /socket.io/?EIO=4&transport=polling&t=PXvMNom&sid=DhWEKoFpkgxsiTK-AAAM HTTP/1.1" 200 -
+2025-08-05 11:29:24,537 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PXvMNoo&sid=DhWEKoFpkgxsiTK-AAAM HTTP/1.1" 200 -
+2025-08-05 11:29:24,549 - INFO - 127.0.0.1 - - [05/Aug/2025 11:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PXvMNp3&sid=DhWEKoFpkgxsiTK-AAAM HTTP/1.1" 200 -
+2025-08-05 11:29:27,660 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:27] "GET /stream HTTP/1.1" 200 -
+2025-08-05 11:29:27,803 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:27] "GET /socket.io/?EIO=4&transport=polling&t=PXvMOVe HTTP/1.1" 200 -
+2025-08-05 11:29:27,833 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:27] "POST /socket.io/?EIO=4&transport=polling&t=PXvMOWg&sid=Nc1HFjY-sOZ2-x-XAAAO HTTP/1.1" 200 -
+2025-08-05 11:29:27,834 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:27] "GET /socket.io/?EIO=4&transport=polling&t=PXvMOWj&sid=Nc1HFjY-sOZ2-x-XAAAO HTTP/1.1" 200 -
+2025-08-05 11:29:28,771 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:28] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 11:29:35,875 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:35] "GET /socket.io/?EIO=4&transport=websocket&sid=Nc1HFjY-sOZ2-x-XAAAO HTTP/1.1" 200 -
+2025-08-05 11:29:35,920 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:35] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 11:29:36,045 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:36] "GET /socket.io/?EIO=4&transport=polling&t=PXvMQWD HTTP/1.1" 200 -
+2025-08-05 11:29:36,068 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:36] "POST /socket.io/?EIO=4&transport=polling&t=PXvMQXR&sid=MuMBpFr3tAEaic94AAAQ HTTP/1.1" 200 -
+2025-08-05 11:29:36,071 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:36] "GET /socket.io/?EIO=4&transport=polling&t=PXvMQXR.0&sid=MuMBpFr3tAEaic94AAAQ HTTP/1.1" 200 -
+2025-08-05 11:29:37,899 - DEBUG - Requête reçue pour /api/notifications/4/read, user_id=7
+2025-08-05 11:29:37,900 - DEBUG - Notification trouvée: {'id': 4, 'user_id': 7, 'message': 'Votre demande pour rejoindre le live a été acceptée.', 'read': 0, 'created_at': '2025-08-05T11:29:24.285833'}
+2025-08-05 11:29:37,992 - INFO - Notification 4 marquée comme lue
+2025-08-05 11:29:37,993 - DEBUG - Événement SocketIO 'notification_updated' émis pour notification_id=4, action=read
+2025-08-05 11:29:37,994 - INFO - 192.168.1.147 - - [05/Aug/2025 11:29:37] "[35m[1mPOST /api/notifications/4/read HTTP/1.1[0m" 204 -
+2025-08-05 11:31:00,843 - INFO - 127.0.0.1 - - [05/Aug/2025 11:31:00] "GET /socket.io/?EIO=4&transport=websocket&sid=DhWEKoFpkgxsiTK-AAAM HTTP/1.1" 200 -
+2025-08-05 11:31:00,862 - INFO - 127.0.0.1 - - [05/Aug/2025 11:31:00] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:31:03,859 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 11:31:03,861 - INFO - Webcam arrêtée
+2025-08-05 11:31:04,044 - INFO - Stream arrêté
+2025-08-05 11:31:04,045 - INFO - 127.0.0.1 - - [05/Aug/2025 11:31:04] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 11:36:02,533 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:02] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:36:14,884 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:14] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:36:17,417 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:17] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:36:18,522 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:18] "GET /admin HTTP/1.1" 200 -
+2025-08-05 11:36:20,636 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:20] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:36:20,660 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:20] "GET /socket.io/?EIO=4&transport=polling&t=PXvNzOm HTTP/1.1" 200 -
+2025-08-05 11:36:20,685 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:20] "POST /socket.io/?EIO=4&transport=polling&t=PXvNzP9&sid=lZKt3jF93a-7SCF2AAAS HTTP/1.1" 200 -
+2025-08-05 11:36:20,689 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:20] "GET /socket.io/?EIO=4&transport=polling&t=PXvNzPB&sid=lZKt3jF93a-7SCF2AAAS HTTP/1.1" 200 -
+2025-08-05 11:36:20,701 - INFO - 127.0.0.1 - - [05/Aug/2025 11:36:20] "GET /socket.io/?EIO=4&transport=polling&t=PXvNzPM&sid=lZKt3jF93a-7SCF2AAAS HTTP/1.1" 200 -
+2025-08-05 11:38:07,441 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:07] "GET /socket.io/?EIO=4&transport=websocket&sid=lZKt3jF93a-7SCF2AAAS HTTP/1.1" 200 -
+2025-08-05 11:38:07,464 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:07] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:38:07,485 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PXvONTu HTTP/1.1" 200 -
+2025-08-05 11:38:07,500 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:07] "POST /socket.io/?EIO=4&transport=polling&t=PXvONU7&sid=RNeL24aG-0iTGWrrAAAU HTTP/1.1" 200 -
+2025-08-05 11:38:07,501 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:07] "GET /socket.io/?EIO=4&transport=polling&t=PXvONU8&sid=RNeL24aG-0iTGWrrAAAU HTTP/1.1" 200 -
+2025-08-05 11:38:08,852 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:08] "GET /socket.io/?EIO=4&transport=websocket&sid=RNeL24aG-0iTGWrrAAAU HTTP/1.1" 200 -
+2025-08-05 11:38:08,858 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:08] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 11:38:08,882 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PXvONpi HTTP/1.1" 200 -
+2025-08-05 11:38:08,896 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:08] "POST /socket.io/?EIO=4&transport=polling&t=PXvONpx&sid=WMkb0JaBPINHzCU3AAAW HTTP/1.1" 200 -
+2025-08-05 11:38:08,897 - INFO - 127.0.0.1 - - [05/Aug/2025 11:38:08] "GET /socket.io/?EIO=4&transport=polling&t=PXvONpy&sid=WMkb0JaBPINHzCU3AAAW HTTP/1.1" 200 -
+2025-08-05 11:47:56,598 - INFO - 192.168.1.147 - - [05/Aug/2025 11:47:56] "GET /socket.io/?EIO=4&transport=websocket&sid=MuMBpFr3tAEaic94AAAQ HTTP/1.1" 200 -
+2025-08-05 11:47:56,623 - INFO - 192.168.1.147 - - [05/Aug/2025 11:47:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 11:47:57,396 - INFO - 192.168.1.147 - - [05/Aug/2025 11:47:57] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:48:43,149 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 11:48:43,840 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 11:48:44,166 - INFO - 192.168.1.147 - - [05/Aug/2025 11:48:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 11:48:44,233 - INFO - 192.168.1.147 - - [05/Aug/2025 11:48:44] "GET / HTTP/1.1" 200 -
+2025-08-05 11:53:28,043 - INFO - 192.168.1.147 - - [05/Aug/2025 11:53:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 11:53:28,057 - INFO - 192.168.1.147 - - [05/Aug/2025 11:53:28] "GET /login HTTP/1.1" 200 -
+2025-08-05 11:55:10,682 - INFO - 127.0.0.1 - - [05/Aug/2025 11:55:10] "GET /socket.io/?EIO=4&transport=websocket&sid=WMkb0JaBPINHzCU3AAAW HTTP/1.1" 200 -
+2025-08-05 11:55:12,841 - INFO - 127.0.0.1 - - [05/Aug/2025 11:55:12] "GET /socket.io/?EIO=4&transport=polling&t=PXvSHok HTTP/1.1" 200 -
+2025-08-05 11:55:12,849 - INFO - 127.0.0.1 - - [05/Aug/2025 11:55:12] "POST /socket.io/?EIO=4&transport=polling&t=PXvSHpE&sid=axkT5HnndGmimQBUAAAY HTTP/1.1" 200 -
+2025-08-05 11:55:12,851 - INFO - 127.0.0.1 - - [05/Aug/2025 11:55:12] "GET /socket.io/?EIO=4&transport=polling&t=PXvSHpG&sid=axkT5HnndGmimQBUAAAY HTTP/1.1" 200 -
+2025-08-05 11:59:46,351 - INFO - 192.168.1.147 - - [05/Aug/2025 11:59:46] "GET /login HTTP/1.1" 200 -
+2025-08-05 12:49:58,384 - DEBUG - Tentative de promotion de l'utilisateur ID 7
+2025-08-05 12:49:58,487 - INFO - Utilisateur Senzu (ID 7) promu administrateur
+2025-08-05 12:49:58,488 - DEBUG - Événement SocketIO 'user_promoted' émis pour user_id=7
+2025-08-05 12:49:58,489 - INFO - 127.0.0.1 - - [05/Aug/2025 12:49:58] "[35m[1mPOST /api/promote_user/7 HTTP/1.1[0m" 204 -
+2025-08-05 12:50:04,375 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:04] "GET /socket.io/?EIO=4&transport=websocket&sid=axkT5HnndGmimQBUAAAY HTTP/1.1" 200 -
+2025-08-05 12:50:04,382 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:04] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 12:50:04,475 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:04] "GET /socket.io/?EIO=4&transport=polling&t=PXverQv HTTP/1.1" 200 -
+2025-08-05 12:50:04,530 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:04] "POST /socket.io/?EIO=4&transport=polling&t=PXverRl&sid=LL1E9rAnxm6aqf5JAAAa HTTP/1.1" 200 -
+2025-08-05 12:50:04,533 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:04] "GET /socket.io/?EIO=4&transport=polling&t=PXverRm&sid=LL1E9rAnxm6aqf5JAAAa HTTP/1.1" 200 -
+2025-08-05 12:50:13,375 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "GET /socket.io/?EIO=4&transport=websocket&sid=LL1E9rAnxm6aqf5JAAAa HTTP/1.1" 200 -
+2025-08-05 12:50:13,384 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 12:50:13,413 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "GET /socket.io/?EIO=4&transport=polling&t=PXvetcS HTTP/1.1" 200 -
+2025-08-05 12:50:13,423 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "POST /socket.io/?EIO=4&transport=polling&t=PXvetci&sid=d9f_hx2ZHyWCp0iQAAAc HTTP/1.1" 200 -
+2025-08-05 12:50:13,425 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "GET /socket.io/?EIO=4&transport=polling&t=PXvetci.0&sid=d9f_hx2ZHyWCp0iQAAAc HTTP/1.1" 200 -
+2025-08-05 12:50:13,435 - INFO - 127.0.0.1 - - [05/Aug/2025 12:50:13] "GET /socket.io/?EIO=4&transport=polling&t=PXvetcv&sid=d9f_hx2ZHyWCp0iQAAAc HTTP/1.1" 200 -
+2025-08-05 12:50:37,207 - INFO - 192.168.1.147 - - [05/Aug/2025 12:50:37] "GET /login HTTP/1.1" 200 -
+2025-08-05 12:54:08,125 - INFO - 192.168.1.147 - - [05/Aug/2025 12:54:08] "GET /login HTTP/1.1" 200 -
+2025-08-05 13:06:50,484 - INFO - 192.168.1.147 - - [05/Aug/2025 13:06:50] "GET /login HTTP/1.1" 200 -
+2025-08-05 13:07:04,137 - INFO - 192.168.1.147 - - [05/Aug/2025 13:07:04] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:40:42,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-05 14:40:42,727 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 14:40:42,727 - INFO -  * Restarting with stat
+2025-08-05 14:40:43,162 - WARNING -  * Debugger is active!
+2025-08-05 14:40:43,306 - INFO -  * Debugger PIN: 593-135-400
+2025-08-05 14:42:04,040 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:04] "GET / HTTP/1.1" 200 -
+2025-08-05 14:42:04,998 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 14:42:14,417 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:14] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:42:25,790 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:42:25,872 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:25] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:42:40,617 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:42:41,347 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:42:41,492 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:41] "POST /login HTTP/1.1" 200 -
+2025-08-05 14:42:43,106 - INFO - 192.168.1.147 - - [05/Aug/2025 14:42:43] "GET / HTTP/1.1" 200 -
+2025-08-05 14:42:43,589 - INFO - 192.168.1.147 - - [05/Aug/2025 14:42:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 14:42:55,077 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:42:55,782 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:42:56,031 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:42:56,052 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:56] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:42:56,094 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PXw2gfC HTTP/1.1" 200 -
+2025-08-05 14:42:56,474 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:56] "POST /socket.io/?EIO=4&transport=polling&t=PXw2gl9&sid=Slm96Csme4s5gF0IAAAA HTTP/1.1" 200 -
+2025-08-05 14:42:56,626 - INFO - 127.0.0.1 - - [05/Aug/2025 14:42:56] "GET /socket.io/?EIO=4&transport=polling&t=PXw2gnR&sid=Slm96Csme4s5gF0IAAAA HTTP/1.1" 200 -
+2025-08-05 14:43:10,210 - INFO - 127.0.0.1 - - [05/Aug/2025 14:43:10] "GET /socket.io/?EIO=4&transport=websocket&sid=Slm96Csme4s5gF0IAAAA HTTP/1.1" 200 -
+2025-08-05 14:43:10,221 - INFO - 127.0.0.1 - - [05/Aug/2025 14:43:10] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:43:10,242 - INFO - 127.0.0.1 - - [05/Aug/2025 14:43:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw2k6T HTTP/1.1" 200 -
+2025-08-05 14:43:10,268 - INFO - 127.0.0.1 - - [05/Aug/2025 14:43:10] "POST /socket.io/?EIO=4&transport=polling&t=PXw2k6t&sid=h4WlM5_yzeatANGgAAAC HTTP/1.1" 200 -
+2025-08-05 14:43:10,269 - INFO - 127.0.0.1 - - [05/Aug/2025 14:43:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw2k6u&sid=h4WlM5_yzeatANGgAAAC HTTP/1.1" 200 -
+2025-08-05 14:43:39,889 - INFO - 192.168.1.147 - - [05/Aug/2025 14:43:39] "GET /register HTTP/1.1" 200 -
+2025-08-05 14:44:20,939 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:44:21,584 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:44:21,587 - INFO - 192.168.1.147 - - [05/Aug/2025 14:44:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 14:44:21,630 - INFO - 192.168.1.147 - - [05/Aug/2025 14:44:21] "GET /register HTTP/1.1" 200 -
+2025-08-05 14:44:22,836 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "GET /socket.io/?EIO=4&transport=websocket&sid=h4WlM5_yzeatANGgAAAC HTTP/1.1" 200 -
+2025-08-05 14:44:22,857 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:44:22,889 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "GET /socket.io/?EIO=4&transport=polling&t=PXw2_rY HTTP/1.1" 200 -
+2025-08-05 14:44:22,903 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "POST /socket.io/?EIO=4&transport=polling&t=PXw2_rn&sid=Ee1uDEZUNWKGWyWpAAAE HTTP/1.1" 200 -
+2025-08-05 14:44:22,903 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "GET /socket.io/?EIO=4&transport=polling&t=PXw2_ro&sid=Ee1uDEZUNWKGWyWpAAAE HTTP/1.1" 200 -
+2025-08-05 14:44:22,911 - INFO - 127.0.0.1 - - [05/Aug/2025 14:44:22] "GET /socket.io/?EIO=4&transport=polling&t=PXw2_rz&sid=Ee1uDEZUNWKGWyWpAAAE HTTP/1.1" 200 -
+2025-08-05 14:45:19,603 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:45:21,500 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:45:21,757 - INFO - 192.168.1.147 - - [05/Aug/2025 14:45:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 14:45:21,914 - INFO - 192.168.1.147 - - [05/Aug/2025 14:45:21] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:45:26,697 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:26] "GET /socket.io/?EIO=4&transport=websocket&sid=Ee1uDEZUNWKGWyWpAAAE HTTP/1.1" 200 -
+2025-08-05 14:45:26,700 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:26] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:45:26,729 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PXw3FR1 HTTP/1.1" 200 -
+2025-08-05 14:45:26,766 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:26] "POST /socket.io/?EIO=4&transport=polling&t=PXw3FRY&sid=85AHfGZizKQ_hanTAAAG HTTP/1.1" 200 -
+2025-08-05 14:45:26,767 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PXw3FRZ&sid=85AHfGZizKQ_hanTAAAG HTTP/1.1" 200 -
+2025-08-05 14:45:52,071 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "GET /socket.io/?EIO=4&transport=websocket&sid=85AHfGZizKQ_hanTAAAG HTTP/1.1" 200 -
+2025-08-05 14:45:52,081 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:45:52,105 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw3LdY HTTP/1.1" 200 -
+2025-08-05 14:45:52,175 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "POST /socket.io/?EIO=4&transport=polling&t=PXw3Lei&sid=QKVcxoZwSPsK4KJoAAAI HTTP/1.1" 200 -
+2025-08-05 14:45:52,176 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw3Lej&sid=QKVcxoZwSPsK4KJoAAAI HTTP/1.1" 200 -
+2025-08-05 14:45:52,189 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw3Lex&sid=QKVcxoZwSPsK4KJoAAAI HTTP/1.1" 200 -
+2025-08-05 14:45:52,831 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:45:53,682 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:45:53,834 - INFO - 192.168.1.147 - - [05/Aug/2025 14:45:53] "POST /login HTTP/1.1" 200 -
+2025-08-05 14:45:55,607 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:55] "GET /socket.io/?EIO=4&transport=websocket&sid=QKVcxoZwSPsK4KJoAAAI HTTP/1.1" 200 -
+2025-08-05 14:45:55,617 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:55] "GET / HTTP/1.1" 200 -
+2025-08-05 14:45:58,082 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:58] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:45:58,104 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:58] "GET /socket.io/?EIO=4&transport=polling&t=PXw3N5H HTTP/1.1" 200 -
+2025-08-05 14:45:58,213 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:58] "POST /socket.io/?EIO=4&transport=polling&t=PXw3N70&sid=5uWSaocoq0RGR5DNAAAK HTTP/1.1" 200 -
+2025-08-05 14:45:58,215 - INFO - 127.0.0.1 - - [05/Aug/2025 14:45:58] "GET /socket.io/?EIO=4&transport=polling&t=PXw3N72&sid=5uWSaocoq0RGR5DNAAAK HTTP/1.1" 200 -
+2025-08-05 14:46:01,737 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:01] "GET /socket.io/?EIO=4&transport=websocket&sid=5uWSaocoq0RGR5DNAAAK HTTP/1.1" 200 -
+2025-08-05 14:46:01,755 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:01] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:46:10,961 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:46:11,821 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:46:11,960 - INFO - 192.168.1.147 - - [05/Aug/2025 14:46:11] "POST /login HTTP/1.1" 200 -
+2025-08-05 14:46:19,001 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:19] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:46:19,030 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:19] "GET /socket.io/?EIO=4&transport=polling&t=PXw3SCF HTTP/1.1" 200 -
+2025-08-05 14:46:19,149 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:19] "POST /socket.io/?EIO=4&transport=polling&t=PXw3SE9&sid=TNPX4M_13UOQwh5cAAAM HTTP/1.1" 200 -
+2025-08-05 14:46:19,151 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:19] "GET /socket.io/?EIO=4&transport=polling&t=PXw3SEA&sid=TNPX4M_13UOQwh5cAAAM HTTP/1.1" 200 -
+2025-08-05 14:46:19,157 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:19] "GET /socket.io/?EIO=4&transport=polling&t=PXw3SEJ&sid=TNPX4M_13UOQwh5cAAAM HTTP/1.1" 200 -
+2025-08-05 14:46:20,456 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:20] "GET /socket.io/?EIO=4&transport=websocket&sid=TNPX4M_13UOQwh5cAAAM HTTP/1.1" 200 -
+2025-08-05 14:46:20,463 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:20] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:46:20,495 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:20] "GET /socket.io/?EIO=4&transport=polling&t=PXw3SZ6 HTTP/1.1" 200 -
+2025-08-05 14:46:20,509 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:20] "POST /socket.io/?EIO=4&transport=polling&t=PXw3SZP&sid=adyNsFF_95tMh3rdAAAO HTTP/1.1" 200 -
+2025-08-05 14:46:20,513 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:20] "GET /socket.io/?EIO=4&transport=polling&t=PXw3SZQ&sid=adyNsFF_95tMh3rdAAAO HTTP/1.1" 200 -
+2025-08-05 14:46:41,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-05 14:46:41,182 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 14:46:41,182 - INFO -  * Restarting with stat
+2025-08-05 14:46:41,661 - WARNING -  * Debugger is active!
+2025-08-05 14:46:41,661 - INFO -  * Debugger PIN: 593-135-400
+2025-08-05 14:46:41,671 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:41] "GET /socket.io/?EIO=4&transport=polling&t=PXw3Xcl HTTP/1.1" 200 -
+2025-08-05 14:46:41,680 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:41] "POST /socket.io/?EIO=4&transport=polling&t=PXw3Xk9&sid=zKX_oGiWz4MYKIUhAAAA HTTP/1.1" 200 -
+2025-08-05 14:46:41,685 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:41] "GET /socket.io/?EIO=4&transport=polling&t=PXw3XkA&sid=zKX_oGiWz4MYKIUhAAAA HTTP/1.1" 200 -
+2025-08-05 14:46:41,691 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:41] "GET /socket.io/?EIO=4&transport=polling&t=PXw3XkP&sid=zKX_oGiWz4MYKIUhAAAA HTTP/1.1" 200 -
+2025-08-05 14:46:50,516 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:50] "GET / HTTP/1.1" 200 -
+2025-08-05 14:46:51,599 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:51] "GET /socket.io/?EIO=4&transport=websocket&sid=zKX_oGiWz4MYKIUhAAAA HTTP/1.1" 200 -
+2025-08-05 14:46:56,999 - INFO - 127.0.0.1 - - [05/Aug/2025 14:46:56] "GET / HTTP/1.1" 200 -
+2025-08-05 14:47:00,548 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:00] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:47:00,573 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw3cLM HTTP/1.1" 200 -
+2025-08-05 14:47:00,643 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:00] "POST /socket.io/?EIO=4&transport=polling&t=PXw3cMT&sid=noUgNzRPYcf8uTHWAAAC HTTP/1.1" 200 -
+2025-08-05 14:47:00,645 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw3cMV&sid=noUgNzRPYcf8uTHWAAAC HTTP/1.1" 200 -
+2025-08-05 14:47:07,260 - INFO - 192.168.1.147 - - [05/Aug/2025 14:47:07] "GET /register HTTP/1.1" 200 -
+2025-08-05 14:47:08,969 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:08] "GET /socket.io/?EIO=4&transport=websocket&sid=noUgNzRPYcf8uTHWAAAC HTTP/1.1" 200 -
+2025-08-05 14:47:08,991 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:08] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:47:09,017 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:09] "GET /socket.io/?EIO=4&transport=polling&t=PXw3ePE HTTP/1.1" 200 -
+2025-08-05 14:47:09,039 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:09] "POST /socket.io/?EIO=4&transport=polling&t=PXw3ePh&sid=IilUDreKyI6N9qwpAAAE HTTP/1.1" 200 -
+2025-08-05 14:47:09,042 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:09] "GET /socket.io/?EIO=4&transport=polling&t=PXw3ePi&sid=IilUDreKyI6N9qwpAAAE HTTP/1.1" 200 -
+2025-08-05 14:47:40,966 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:47:41,720 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:47:42,044 - INFO - 192.168.1.147 - - [05/Aug/2025 14:47:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 14:47:42,144 - INFO - 192.168.1.147 - - [05/Aug/2025 14:47:42] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:47:45,181 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:45] "GET /socket.io/?EIO=4&transport=websocket&sid=IilUDreKyI6N9qwpAAAE HTTP/1.1" 200 -
+2025-08-05 14:47:45,196 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:45] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:47:45,227 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:45] "GET /socket.io/?EIO=4&transport=polling&t=PXw3nF0 HTTP/1.1" 200 -
+2025-08-05 14:47:45,288 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:45] "POST /socket.io/?EIO=4&transport=polling&t=PXw3nG4&sid=83UV-eIIC45cU8O4AAAG HTTP/1.1" 200 -
+2025-08-05 14:47:45,289 - INFO - 127.0.0.1 - - [05/Aug/2025 14:47:45] "GET /socket.io/?EIO=4&transport=polling&t=PXw3nG5&sid=83UV-eIIC45cU8O4AAAG HTTP/1.1" 200 -
+2025-08-05 14:47:57,805 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:47:58,527 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:47:58,794 - INFO - 192.168.1.147 - - [05/Aug/2025 14:47:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:47:58,892 - INFO - 192.168.1.147 - - [05/Aug/2025 14:47:58] "GET / HTTP/1.1" 200 -
+2025-08-05 14:48:05,945 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:05] "GET /socket.io/?EIO=4&transport=websocket&sid=83UV-eIIC45cU8O4AAAG HTTP/1.1" 200 -
+2025-08-05 14:48:05,957 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:05] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:48:05,984 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:05] "GET /socket.io/?EIO=4&transport=polling&t=PXw3sJP HTTP/1.1" 200 -
+2025-08-05 14:48:06,003 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:06] "POST /socket.io/?EIO=4&transport=polling&t=PXw3sJj&sid=bE1Ei53CU3jUAlDgAAAI HTTP/1.1" 200 -
+2025-08-05 14:48:06,004 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:06] "GET /socket.io/?EIO=4&transport=polling&t=PXw3sJk&sid=bE1Ei53CU3jUAlDgAAAI HTTP/1.1" 200 -
+2025-08-05 14:48:07,947 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:07] "GET /socket.io/?EIO=4&transport=websocket&sid=bE1Ei53CU3jUAlDgAAAI HTTP/1.1" 200 -
+2025-08-05 14:48:07,965 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:07] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:48:47,216 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 14:48:47,217 - INFO - Camera instance created
+2025-08-05 14:48:47,435 - INFO - Webcam démarrée
+2025-08-05 14:48:47,567 - INFO - Stream démarré
+2025-08-05 14:48:47,568 - INFO - 127.0.0.1 - - [05/Aug/2025 14:48:47] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 14:48:54,612 - INFO - 192.168.1.147 - - [05/Aug/2025 14:48:54] "GET / HTTP/1.1" 200 -
+2025-08-05 14:48:56,509 - INFO - 192.168.1.147 - - [05/Aug/2025 14:48:56] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 14:48:56,649 - INFO - 192.168.1.147 - - [05/Aug/2025 14:48:56] "GET / HTTP/1.1" 200 -
+2025-08-05 14:49:07,239 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:07] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:49:07,271 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:07] "GET /socket.io/?EIO=4&transport=polling&t=PXw45G_ HTTP/1.1" 200 -
+2025-08-05 14:49:07,282 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:07] "POST /socket.io/?EIO=4&transport=polling&t=PXw45HF&sid=Foik91vE97Ky6Vh8AAAK HTTP/1.1" 200 -
+2025-08-05 14:49:07,284 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:07] "GET /socket.io/?EIO=4&transport=polling&t=PXw45HG&sid=Foik91vE97Ky6Vh8AAAK HTTP/1.1" 200 -
+2025-08-05 14:49:10,314 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "GET /socket.io/?EIO=4&transport=websocket&sid=Foik91vE97Ky6Vh8AAAK HTTP/1.1" 200 -
+2025-08-05 14:49:10,583 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "[32mPOST /manage_request/1/accept HTTP/1.1[0m" 302 -
+2025-08-05 14:49:10,595 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:49:10,618 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw465O HTTP/1.1" 200 -
+2025-08-05 14:49:10,654 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "POST /socket.io/?EIO=4&transport=polling&t=PXw465x&sid=TwWMI_AuwJj5_JyQAAAM HTTP/1.1" 200 -
+2025-08-05 14:49:10,655 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw465x.0&sid=TwWMI_AuwJj5_JyQAAAM HTTP/1.1" 200 -
+2025-08-05 14:49:12,313 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:12] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:49:12,462 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:12] "GET /socket.io/?EIO=4&transport=polling&t=PXw46Tu HTTP/1.1" 200 -
+2025-08-05 14:49:12,515 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:12] "POST /socket.io/?EIO=4&transport=polling&t=PXw46VY&sid=8SjFkvNTU7dr9gb9AAAO HTTP/1.1" 200 -
+2025-08-05 14:49:12,518 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:12] "GET /socket.io/?EIO=4&transport=polling&t=PXw46Vb&sid=8SjFkvNTU7dr9gb9AAAO HTTP/1.1" 200 -
+2025-08-05 14:49:13,747 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:13] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 14:49:21,534 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "GET /socket.io/?EIO=4&transport=websocket&sid=8SjFkvNTU7dr9gb9AAAO HTTP/1.1" 200 -
+2025-08-05 14:49:21,593 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:49:21,778 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw48l9 HTTP/1.1" 200 -
+2025-08-05 14:49:21,856 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "POST /socket.io/?EIO=4&transport=polling&t=PXw48nH&sid=xclchg0LYRRYSrcHAAAQ HTTP/1.1" 200 -
+2025-08-05 14:49:21,857 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw48nI&sid=xclchg0LYRRYSrcHAAAQ HTTP/1.1" 200 -
+2025-08-05 14:49:21,911 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw48oM&sid=xclchg0LYRRYSrcHAAAQ HTTP/1.1" 200 -
+2025-08-05 14:49:24,498 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "GET /socket.io/?EIO=4&transport=websocket&sid=TwWMI_AuwJj5_JyQAAAM HTTP/1.1" 200 -
+2025-08-05 14:49:24,504 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:49:24,523 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "GET /socket.io/?EIO=4&transport=polling&t=PXw49Ue HTTP/1.1" 200 -
+2025-08-05 14:49:24,550 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "POST /socket.io/?EIO=4&transport=polling&t=PXw49V3&sid=pa4gQoH5z9uat3yCAAAS HTTP/1.1" 200 -
+2025-08-05 14:49:24,554 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "GET /socket.io/?EIO=4&transport=polling&t=PXw49V3.0&sid=pa4gQoH5z9uat3yCAAAS HTTP/1.1" 200 -
+2025-08-05 14:49:24,565 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:24] "GET /socket.io/?EIO=4&transport=polling&t=PXw49VK&sid=pa4gQoH5z9uat3yCAAAS HTTP/1.1" 200 -
+2025-08-05 14:49:26,564 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:26] "GET /socket.io/?EIO=4&transport=websocket&sid=pa4gQoH5z9uat3yCAAAS HTTP/1.1" 200 -
+2025-08-05 14:49:26,570 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:26] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:49:29,353 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:29] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:49:29,384 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:29] "GET /socket.io/?EIO=4&transport=polling&t=PXw4AgZ HTTP/1.1" 200 -
+2025-08-05 14:49:29,399 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:29] "POST /socket.io/?EIO=4&transport=polling&t=PXw4Ago&sid=0A3nZi4bwRRULwqXAAAU HTTP/1.1" 200 -
+2025-08-05 14:49:29,400 - INFO - 127.0.0.1 - - [05/Aug/2025 14:49:29] "GET /socket.io/?EIO=4&transport=polling&t=PXw4Agp&sid=0A3nZi4bwRRULwqXAAAU HTTP/1.1" 200 -
+2025-08-05 14:49:39,635 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:39] "GET /socket.io/?EIO=4&transport=websocket&sid=xclchg0LYRRYSrcHAAAQ HTTP/1.1" 200 -
+2025-08-05 14:49:39,780 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:39] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:49:39,922 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:39] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 14:49:40,031 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:40] "GET /socket.io/?EIO=4&transport=polling&t=PXw4DBS HTTP/1.1" 200 -
+2025-08-05 14:49:40,161 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:40] "POST /socket.io/?EIO=4&transport=polling&t=PXw4DEg&sid=YsoUw9wolfmTd7WrAAAW HTTP/1.1" 200 -
+2025-08-05 14:49:40,163 - INFO - 192.168.1.147 - - [05/Aug/2025 14:49:40] "GET /socket.io/?EIO=4&transport=polling&t=PXw4DEi&sid=YsoUw9wolfmTd7WrAAAW HTTP/1.1" 200 -
+2025-08-05 14:50:32,180 - INFO - 127.0.0.1 - - [05/Aug/2025 14:50:32] "GET /socket.io/?EIO=4&transport=websocket&sid=0A3nZi4bwRRULwqXAAAU HTTP/1.1" 200 -
+2025-08-05 14:50:32,216 - INFO - 127.0.0.1 - - [05/Aug/2025 14:50:32] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:50:32,238 - INFO - 127.0.0.1 - - [05/Aug/2025 14:50:32] "GET /socket.io/?EIO=4&transport=polling&t=PXw4Q0h HTTP/1.1" 200 -
+2025-08-05 14:50:32,305 - INFO - 127.0.0.1 - - [05/Aug/2025 14:50:32] "POST /socket.io/?EIO=4&transport=polling&t=PXw4Q1k&sid=FIe7iSCKvRkpoKAVAAAY HTTP/1.1" 200 -
+2025-08-05 14:50:32,306 - INFO - 127.0.0.1 - - [05/Aug/2025 14:50:32] "GET /socket.io/?EIO=4&transport=polling&t=PXw4Q1k.0&sid=FIe7iSCKvRkpoKAVAAAY HTTP/1.1" 200 -
+2025-08-05 14:51:01,692 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:01] "GET /socket.io/?EIO=4&transport=websocket&sid=FIe7iSCKvRkpoKAVAAAY HTTP/1.1" 200 -
+2025-08-05 14:51:01,702 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:01] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:51:01,729 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:01] "GET /socket.io/?EIO=4&transport=polling&t=PXw4XDQ HTTP/1.1" 200 -
+2025-08-05 14:51:01,741 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:01] "POST /socket.io/?EIO=4&transport=polling&t=PXw4XDf&sid=EA5t0syzZ0bzG8OoAAAa HTTP/1.1" 200 -
+2025-08-05 14:51:01,745 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:01] "GET /socket.io/?EIO=4&transport=polling&t=PXw4XDg&sid=EA5t0syzZ0bzG8OoAAAa HTTP/1.1" 200 -
+2025-08-05 14:51:18,216 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:18] "GET /socket.io/?EIO=4&transport=websocket&sid=EA5t0syzZ0bzG8OoAAAa HTTP/1.1" 200 -
+2025-08-05 14:51:18,224 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:18] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:51:38,578 - DEBUG - Requête reçue pour /api/control_recording: {'action': 'start'}
+2025-08-05 14:51:39,065 - INFO - Enregistrement démarré : /home/alfa/Projet/devops/Programmation reseau version final/app/static/uploads/recording_20250805_145138.mp4
+2025-08-05 14:51:39,065 - INFO - Enregistrement démarré
+2025-08-05 14:51:39,067 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:39] "[35m[1mPOST /api/control_recording HTTP/1.1[0m" 204 -
+2025-08-05 14:51:46,616 - DEBUG - Requête reçue pour /api/control_recording: {'action': 'stop'}
+2025-08-05 14:51:46,657 - INFO - Enregistrement arrêté
+2025-08-05 14:51:46,658 - INFO - Enregistrement arrêté
+2025-08-05 14:51:46,659 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:46] "[35m[1mPOST /api/control_recording HTTP/1.1[0m" 204 -
+2025-08-05 14:51:46,669 - DEBUG - Requête reçue pour /api/videos
+2025-08-05 14:51:46,670 - INFO - Vidéos récupérées: ['1754374168_Youssoupha_feat_Kery_James___LFDV_-_La_Vie_Est_Belle_-_Paroles__Officiel_(360p).mp4', '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4', 'recording_20250805_145138.mp4']
+2025-08-05 14:51:46,732 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:46] "[35m[1mGET /api/videos HTTP/1.1[0m" 500 -
+2025-08-05 14:51:54,592 - INFO - 127.0.0.1 - - [05/Aug/2025 14:51:54] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:52:23,609 - DEBUG - Requête reçue pour /api/upload
+2025-08-05 14:52:23,867 - INFO - Fichier uploadé: 1754394743_Youssoupha_-_Macadam(360p).mp4
+2025-08-05 14:52:23,871 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:23] "[35m[1mPOST /api/upload HTTP/1.1[0m" 204 -
+2025-08-05 14:52:23,877 - DEBUG - Requête reçue pour /api/videos
+2025-08-05 14:52:23,877 - INFO - Vidéos récupérées: ['1754374168_Youssoupha_feat_Kery_James___LFDV_-_La_Vie_Est_Belle_-_Paroles__Officiel_(360p).mp4', '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4', 'recording_20250805_145138.mp4', '1754394743_Youssoupha_-_Macadam(360p).mp4']
+2025-08-05 14:52:23,889 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:23] "[35m[1mGET /api/videos HTTP/1.1[0m" 500 -
+2025-08-05 14:52:25,446 - DEBUG - Requête reçue pour /api/upload
+2025-08-05 14:52:25,521 - INFO - Fichier uploadé: 1754394745_Youssoupha_-_Macadam(360p).mp4
+2025-08-05 14:52:25,523 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:25] "[35m[1mPOST /api/upload HTTP/1.1[0m" 204 -
+2025-08-05 14:52:25,527 - DEBUG - Requête reçue pour /api/videos
+2025-08-05 14:52:25,528 - INFO - Vidéos récupérées: ['1754374168_Youssoupha_feat_Kery_James___LFDV_-_La_Vie_Est_Belle_-_Paroles__Officiel_(360p).mp4', '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4', '1754394745_Youssoupha_-_Macadam(360p).mp4', 'recording_20250805_145138.mp4', '1754394743_Youssoupha_-_Macadam(360p).mp4']
+2025-08-05 14:52:25,537 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:25] "[35m[1mGET /api/videos HTTP/1.1[0m" 500 -
+2025-08-05 14:52:27,123 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:27] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:52:47,962 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'video', 'video_path': '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4'}
+2025-08-05 14:52:47,962 - WARNING - Stream déjà actif
+2025-08-05 14:52:47,965 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:47] "[31m[1mPOST /api/control_stream HTTP/1.1[0m" 400 -
+2025-08-05 14:52:51,997 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:51] "GET /socket.io/?EIO=4&transport=websocket&sid=YsoUw9wolfmTd7WrAAAW HTTP/1.1" 200 -
+2025-08-05 14:52:52,140 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:52] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:52:52,477 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:52] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 14:52:52,556 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw4yCx HTTP/1.1" 200 -
+2025-08-05 14:52:52,803 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:52] "POST /socket.io/?EIO=4&transport=polling&t=PXw4yE-&sid=Z7Rcxt3OAeODdxx6AAAc HTTP/1.1" 200 -
+2025-08-05 14:52:52,804 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw4yE_&sid=Z7Rcxt3OAeODdxx6AAAc HTTP/1.1" 200 -
+2025-08-05 14:52:53,812 - INFO - 192.168.1.147 - - [05/Aug/2025 14:52:53] "GET /socket.io/?EIO=4&transport=polling&t=PXw4yI-&sid=Z7Rcxt3OAeODdxx6AAAc HTTP/1.1" 200 -
+2025-08-05 14:52:54,982 - INFO - 127.0.0.1 - - [05/Aug/2025 14:52:54] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:53:04,780 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'video', 'video_path': '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4'}
+2025-08-05 14:53:04,782 - WARNING - Stream déjà actif
+2025-08-05 14:53:04,784 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:04] "[31m[1mPOST /api/control_stream HTTP/1.1[0m" 400 -
+2025-08-05 14:53:12,900 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 14:53:12,903 - INFO - Webcam arrêtée
+2025-08-05 14:53:12,904 - INFO - Webcam arrêtée
+2025-08-05 14:53:13,007 - INFO - Stream arrêté
+2025-08-05 14:53:13,009 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:13] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 14:53:16,951 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:16] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:53:20,701 - DEBUG - Requête reçue pour /api/upload
+2025-08-05 14:53:20,702 - ERROR - Aucun fichier fourni
+2025-08-05 14:53:20,703 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:20] "[31m[1mPOST /api/upload HTTP/1.1[0m" 400 -
+2025-08-05 14:53:27,491 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'video', 'video_path': '1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4'}
+2025-08-05 14:53:27,563 - INFO - Stream démarré
+2025-08-05 14:53:27,565 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:27] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 14:53:31,695 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:31] "GET /socket.io/?EIO=4&transport=websocket&sid=Z7Rcxt3OAeODdxx6AAAc HTTP/1.1" 200 -
+2025-08-05 14:53:31,790 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:31] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:53:32,215 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:32] "GET /socket.io/?EIO=4&transport=polling&t=PXw55vO HTTP/1.1" 200 -
+2025-08-05 14:53:32,231 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:32] "[35m[1mGET /static/uploads/1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 14:53:32,280 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:32] "POST /socket.io/?EIO=4&transport=polling&t=PXw55wI&sid=Pw6Ibo5GBFQ8k5wrAAAe HTTP/1.1" 200 -
+2025-08-05 14:53:32,287 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:32] "GET /socket.io/?EIO=4&transport=polling&t=PXw55wJ&sid=Pw6Ibo5GBFQ8k5wrAAAe HTTP/1.1" 200 -
+2025-08-05 14:53:32,381 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:32] "GET /socket.io/?EIO=4&transport=polling&t=PXw55xT&sid=Pw6Ibo5GBFQ8k5wrAAAe HTTP/1.1" 200 -
+2025-08-05 14:53:34,368 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 14:53:34,535 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:34] "[35m[1mGET /static/uploads/1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 14:53:34,597 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:34] "[35m[1mGET /static/uploads/1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 14:53:40,017 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:40] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:53:40,045 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:40] "GET /socket.io/?EIO=4&transport=polling&t=PXw57t8 HTTP/1.1" 200 -
+2025-08-05 14:53:40,082 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:40] "POST /socket.io/?EIO=4&transport=polling&t=PXw57tb&sid=dBXr_xFW_0_c8PSdAAAg HTTP/1.1" 200 -
+2025-08-05 14:53:40,084 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:40] "GET /socket.io/?EIO=4&transport=polling&t=PXw57td&sid=dBXr_xFW_0_c8PSdAAAg HTTP/1.1" 200 -
+2025-08-05 14:53:41,736 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:41] "GET /socket.io/?EIO=4&transport=websocket&sid=dBXr_xFW_0_c8PSdAAAg HTTP/1.1" 200 -
+2025-08-05 14:53:41,748 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:41] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:53:41,775 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:41] "GET /socket.io/?EIO=4&transport=polling&t=PXw58IA HTTP/1.1" 200 -
+2025-08-05 14:53:41,793 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:41] "POST /socket.io/?EIO=4&transport=polling&t=PXw58IP&sid=pt0Q4ZwfWyoQdlwlAAAi HTTP/1.1" 200 -
+2025-08-05 14:53:41,794 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:41] "GET /socket.io/?EIO=4&transport=polling&t=PXw58IQ&sid=pt0Q4ZwfWyoQdlwlAAAi HTTP/1.1" 200 -
+2025-08-05 14:53:43,312 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:43] "GET /socket.io/?EIO=4&transport=websocket&sid=pt0Q4ZwfWyoQdlwlAAAi HTTP/1.1" 200 -
+2025-08-05 14:53:43,318 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:43] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:53:44,585 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:44] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:53:44,609 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:44] "GET /socket.io/?EIO=4&transport=polling&t=PXw58-R HTTP/1.1" 200 -
+2025-08-05 14:53:44,621 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:44] "POST /socket.io/?EIO=4&transport=polling&t=PXw58-f&sid=PVTXV6-jZhMAzifgAAAk HTTP/1.1" 200 -
+2025-08-05 14:53:44,623 - INFO - 127.0.0.1 - - [05/Aug/2025 14:53:44] "GET /socket.io/?EIO=4&transport=polling&t=PXw58-g&sid=PVTXV6-jZhMAzifgAAAk HTTP/1.1" 200 -
+2025-08-05 14:53:55,777 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:55] "GET /socket.io/?EIO=4&transport=websocket&sid=Pw6Ibo5GBFQ8k5wrAAAe HTTP/1.1" 200 -
+2025-08-05 14:53:55,930 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:55] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:53:56,118 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:56] "GET /socket.io/?EIO=4&transport=polling&t=PXw5Bkn HTTP/1.1" 200 -
+2025-08-05 14:53:56,174 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:56] "POST /socket.io/?EIO=4&transport=polling&t=PXw5Bla&sid=QxiedZhxgXHJxsQiAAAm HTTP/1.1" 200 -
+2025-08-05 14:53:56,198 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:56] "GET /socket.io/?EIO=4&transport=polling&t=PXw5Blb&sid=QxiedZhxgXHJxsQiAAAm HTTP/1.1" 200 -
+2025-08-05 14:53:56,233 - INFO - 192.168.1.147 - - [05/Aug/2025 14:53:56] "GET /socket.io/?EIO=4&transport=polling&t=PXw5Bmg&sid=QxiedZhxgXHJxsQiAAAm HTTP/1.1" 200 -
+2025-08-05 14:54:00,512 - INFO - 192.168.1.147 - - [05/Aug/2025 14:54:00] "GET /socket.io/?EIO=4&transport=websocket&sid=QxiedZhxgXHJxsQiAAAm HTTP/1.1" 200 -
+2025-08-05 14:54:00,543 - INFO - 192.168.1.147 - - [05/Aug/2025 14:54:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 14:54:00,560 - INFO - 192.168.1.147 - - [05/Aug/2025 14:54:00] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:54:08,400 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:08] "GET /socket.io/?EIO=4&transport=websocket&sid=PVTXV6-jZhMAzifgAAAk HTTP/1.1" 200 -
+2025-08-05 14:54:08,410 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:08] "GET / HTTP/1.1" 200 -
+2025-08-05 14:54:11,527 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:11] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 14:54:11,532 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:11] "GET / HTTP/1.1" 200 -
+2025-08-05 14:54:16,702 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:16] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:54:18,791 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:18] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:54:18,817 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:18] "GET /socket.io/?EIO=4&transport=polling&t=PXw5HKx HTTP/1.1" 200 -
+2025-08-05 14:54:18,827 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:18] "POST /socket.io/?EIO=4&transport=polling&t=PXw5HL7&sid=oYpTXeZqbz779Q_yAAAo HTTP/1.1" 200 -
+2025-08-05 14:54:18,831 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:18] "GET /socket.io/?EIO=4&transport=polling&t=PXw5HL8&sid=oYpTXeZqbz779Q_yAAAo HTTP/1.1" 200 -
+2025-08-05 14:54:20,796 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:20] "GET /socket.io/?EIO=4&transport=websocket&sid=oYpTXeZqbz779Q_yAAAo HTTP/1.1" 200 -
+2025-08-05 14:54:20,988 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:20] "[32mPOST /manage_request/2/accept HTTP/1.1[0m" 302 -
+2025-08-05 14:54:20,998 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:20] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:54:21,025 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw5HtQ HTTP/1.1" 200 -
+2025-08-05 14:54:21,076 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:21] "POST /socket.io/?EIO=4&transport=polling&t=PXw5HuE&sid=SVbIlssPf2CeqPhKAAAq HTTP/1.1" 200 -
+2025-08-05 14:54:21,077 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw5HuF&sid=SVbIlssPf2CeqPhKAAAq HTTP/1.1" 200 -
+2025-08-05 14:54:26,724 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:26] "GET /socket.io/?EIO=4&transport=websocket&sid=SVbIlssPf2CeqPhKAAAq HTTP/1.1" 200 -
+2025-08-05 14:54:26,733 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:26] "GET / HTTP/1.1" 200 -
+2025-08-05 14:54:28,534 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:28] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:54:28,595 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:28] "GET /socket.io/?EIO=4&transport=polling&t=PXw5Jjm HTTP/1.1" 200 -
+2025-08-05 14:54:28,813 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:28] "POST /socket.io/?EIO=4&transport=polling&t=PXw5Jmc&sid=iI7ttgqbrJtvyAIoAAAs HTTP/1.1" 200 -
+2025-08-05 14:54:28,815 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:28] "GET /socket.io/?EIO=4&transport=polling&t=PXw5Jmf&sid=iI7ttgqbrJtvyAIoAAAs HTTP/1.1" 200 -
+2025-08-05 14:54:28,817 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:28] "[35m[1mGET /static/uploads/1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 14:54:36,342 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:36] "GET /socket.io/?EIO=4&transport=websocket&sid=iI7ttgqbrJtvyAIoAAAs HTTP/1.1" 200 -
+2025-08-05 14:54:36,350 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:36] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:54:41,916 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 14:54:41,999 - INFO - Stream arrêté
+2025-08-05 14:54:42,001 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:42] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 14:54:45,654 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 14:54:45,697 - INFO - 127.0.0.1 - - [05/Aug/2025 14:54:45] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:57:22,067 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:57:22,073 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:22] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:57:32,464 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:57:33,288 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:57:33,518 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:57:33,522 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:33] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:57:33,555 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:33] "GET /socket.io/?EIO=4&transport=polling&t=PXw60te HTTP/1.1" 200 -
+2025-08-05 14:57:33,575 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:33] "POST /socket.io/?EIO=4&transport=polling&t=PXw60ty&sid=Jakqb7RdhLl24VwfAAAu HTTP/1.1" 200 -
+2025-08-05 14:57:33,578 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:33] "GET /socket.io/?EIO=4&transport=polling&t=PXw60tz&sid=Jakqb7RdhLl24VwfAAAu HTTP/1.1" 200 -
+2025-08-05 14:57:40,290 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:40] "GET /socket.io/?EIO=4&transport=websocket&sid=Jakqb7RdhLl24VwfAAAu HTTP/1.1" 200 -
+2025-08-05 14:57:40,295 - INFO - 127.0.0.1 - - [05/Aug/2025 14:57:40] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:58:19,950 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:19] "GET / HTTP/1.1" 200 -
+2025-08-05 14:58:23,546 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:23] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 14:58:23,590 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:23] "GET /socket.io/?EIO=4&transport=polling&t=PXw6D5V HTTP/1.1" 200 -
+2025-08-05 14:58:23,652 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:23] "POST /socket.io/?EIO=4&transport=polling&t=PXw6D6W&sid=tw9NsV2hDfjEDgjuAAAw HTTP/1.1" 200 -
+2025-08-05 14:58:23,652 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:23] "GET /socket.io/?EIO=4&transport=polling&t=PXw6D6X&sid=tw9NsV2hDfjEDgjuAAAw HTTP/1.1" 200 -
+2025-08-05 14:58:35,664 - DEBUG - Requête reçue pour /api/notifications/2/delete, user_id=1
+2025-08-05 14:58:35,665 - DEBUG - Notification trouvée: {'id': 2, 'user_id': 1, 'message': 'Votre demande pour rejoindre le live a été acceptée.', 'read': 0, 'created_at': '2025-08-05T14:54:20.808637'}
+2025-08-05 14:58:35,780 - INFO - Notification 2 supprimée
+2025-08-05 14:58:35,781 - DEBUG - Événement SocketIO 'notification_updated' émis pour notification_id=2, action=delete
+2025-08-05 14:58:35,782 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:35] "[35m[1mPOST /api/notifications/2/delete HTTP/1.1[0m" 204 -
+2025-08-05 14:58:36,585 - DEBUG - Requête reçue pour /api/notifications/2/delete, user_id=1
+2025-08-05 14:58:36,586 - DEBUG - Notification trouvée: None
+2025-08-05 14:58:36,586 - ERROR - Notification ID 2 non trouvée
+2025-08-05 14:58:36,587 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:36] "[33mPOST /api/notifications/2/delete HTTP/1.1[0m" 404 -
+2025-08-05 14:58:52,628 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "GET /socket.io/?EIO=4&transport=websocket&sid=tw9NsV2hDfjEDgjuAAAw HTTP/1.1" 200 -
+2025-08-05 14:58:52,639 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 14:58:52,660 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw6KBn HTTP/1.1" 200 -
+2025-08-05 14:58:52,699 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "POST /socket.io/?EIO=4&transport=polling&t=PXw6KCF&sid=hduFeldnuiFhwiHfAAAy HTTP/1.1" 200 -
+2025-08-05 14:58:52,699 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw6KCG&sid=hduFeldnuiFhwiHfAAAy HTTP/1.1" 200 -
+2025-08-05 14:58:52,711 - INFO - 127.0.0.1 - - [05/Aug/2025 14:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PXw6KCY&sid=hduFeldnuiFhwiHfAAAy HTTP/1.1" 200 -
+2025-08-05 14:59:00,966 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:00] "GET /socket.io/?EIO=4&transport=websocket&sid=hduFeldnuiFhwiHfAAAy HTTP/1.1" 200 -
+2025-08-05 14:59:00,972 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:00] "GET / HTTP/1.1" 200 -
+2025-08-05 14:59:04,112 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:04] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:59:14,115 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:59:14,126 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:14] "GET /login HTTP/1.1" 200 -
+2025-08-05 14:59:16,323 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 14:59:16,499 - INFO - Webcam démarrée
+2025-08-05 14:59:16,602 - INFO - Stream démarré
+2025-08-05 14:59:16,603 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:16] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 14:59:25,522 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:25] "GET / HTTP/1.1" 200 -
+2025-08-05 14:59:27,019 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:27] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:59:27,069 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:27] "GET /socket.io/?EIO=4&transport=polling&t=PXw6SbG HTTP/1.1" 200 -
+2025-08-05 14:59:27,105 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:27] "POST /socket.io/?EIO=4&transport=polling&t=PXw6Sbz&sid=yNNXUQ3DQaE7YMD8AAA0 HTTP/1.1" 200 -
+2025-08-05 14:59:27,106 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:27] "GET /socket.io/?EIO=4&transport=polling&t=PXw6Sb-&sid=yNNXUQ3DQaE7YMD8AAA0 HTTP/1.1" 200 -
+2025-08-05 14:59:28,072 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:28] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 14:59:31,393 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 14:59:32,045 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 14:59:32,287 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 14:59:32,310 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:32] "GET / HTTP/1.1" 200 -
+2025-08-05 14:59:34,319 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:34] "GET /stream HTTP/1.1" 200 -
+2025-08-05 14:59:34,481 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:34] "GET /socket.io/?EIO=4&transport=polling&t=PXw6UL4 HTTP/1.1" 200 -
+2025-08-05 14:59:34,613 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:34] "POST /socket.io/?EIO=4&transport=polling&t=PXw6UN7&sid=gO1FP9oYRUQ4swwFAAA2 HTTP/1.1" 200 -
+2025-08-05 14:59:34,614 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:34] "GET /socket.io/?EIO=4&transport=polling&t=PXw6UNA&sid=gO1FP9oYRUQ4swwFAAA2 HTTP/1.1" 200 -
+2025-08-05 14:59:34,782 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:34] "GET /socket.io/?EIO=4&transport=polling&t=PXw6UPn&sid=gO1FP9oYRUQ4swwFAAA2 HTTP/1.1" 200 -
+2025-08-05 14:59:36,033 - INFO - 192.168.1.147 - - [05/Aug/2025 14:59:36] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 14:59:36,780 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:36] "GET /socket.io/?EIO=4&transport=websocket&sid=yNNXUQ3DQaE7YMD8AAA0 HTTP/1.1" 200 -
+2025-08-05 14:59:36,785 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:36] "GET /admin HTTP/1.1" 200 -
+2025-08-05 14:59:51,235 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 14:59:51,238 - ERROR - Erreur : impossible de lire le frame
+2025-08-05 14:59:51,239 - INFO - Webcam arrêtée
+2025-08-05 14:59:51,239 - INFO - Webcam arrêtée
+2025-08-05 14:59:51,345 - INFO - Stream arrêté
+2025-08-05 14:59:51,346 - INFO - 127.0.0.1 - - [05/Aug/2025 14:59:51] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:00:05,394 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'video', 'video_path': '1754394743_Youssoupha_-_Macadam(360p).mp4'}
+2025-08-05 15:00:05,738 - INFO - Stream démarré
+2025-08-05 15:00:05,739 - INFO - 127.0.0.1 - - [05/Aug/2025 15:00:05] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:00:10,497 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "GET /socket.io/?EIO=4&transport=websocket&sid=gO1FP9oYRUQ4swwFAAA2 HTTP/1.1" 200 -
+2025-08-05 15:00:10,623 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "GET /stream HTTP/1.1" 200 -
+2025-08-05 15:00:10,787 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw6dCf HTTP/1.1" 200 -
+2025-08-05 15:00:10,791 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "[35m[1mGET /static/uploads/1754394743_Youssoupha_-_Macadam(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 15:00:10,897 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "POST /socket.io/?EIO=4&transport=polling&t=PXw6dDv&sid=BLrry_qJxI0ynClcAAA4 HTTP/1.1" 200 -
+2025-08-05 15:00:10,898 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:10] "GET /socket.io/?EIO=4&transport=polling&t=PXw6dDx&sid=BLrry_qJxI0ynClcAAA4 HTTP/1.1" 200 -
+2025-08-05 15:00:11,010 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:11] "GET /socket.io/?EIO=4&transport=polling&t=PXw6dGI&sid=BLrry_qJxI0ynClcAAA4 HTTP/1.1" 200 -
+2025-08-05 15:00:14,329 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:14] "[35m[1mGET /static/uploads/1754394743_Youssoupha_-_Macadam(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 15:00:14,334 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 15:00:14,370 - INFO - 192.168.1.147 - - [05/Aug/2025 15:00:14] "[35m[1mGET /static/uploads/1754394743_Youssoupha_-_Macadam(360p).mp4 HTTP/1.1[0m" 206 -
+2025-08-05 15:01:04,814 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 15:01:04,915 - INFO - Stream arrêté
+2025-08-05 15:01:04,916 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:04] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:01:06,830 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:06] "GET /socket.io/?EIO=4&transport=websocket&sid=BLrry_qJxI0ynClcAAA4 HTTP/1.1" 200 -
+2025-08-05 15:01:06,935 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:06] "GET /stream HTTP/1.1" 200 -
+2025-08-05 15:01:07,138 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:07] "GET /socket.io/?EIO=4&transport=polling&t=PXw6qzH HTTP/1.1" 200 -
+2025-08-05 15:01:07,170 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:07] "POST /socket.io/?EIO=4&transport=polling&t=PXw6qzz&sid=WdQSLDs3MpUukM3jAAA6 HTTP/1.1" 200 -
+2025-08-05 15:01:07,172 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:07] "GET /socket.io/?EIO=4&transport=polling&t=PXw6qz-&sid=WdQSLDs3MpUukM3jAAA6 HTTP/1.1" 200 -
+2025-08-05 15:01:07,205 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:07] "GET /socket.io/?EIO=4&transport=polling&t=PXw6q-U&sid=WdQSLDs3MpUukM3jAAA6 HTTP/1.1" 200 -
+2025-08-05 15:01:11,936 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:11] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 15:01:11,965 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:11] "GET /socket.io/?EIO=4&transport=polling&t=PXw6sCO HTTP/1.1" 200 -
+2025-08-05 15:01:11,979 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:11] "POST /socket.io/?EIO=4&transport=polling&t=PXw6sCb&sid=aNYko2loaGBpq5BMAAA8 HTTP/1.1" 200 -
+2025-08-05 15:01:11,981 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:11] "GET /socket.io/?EIO=4&transport=polling&t=PXw6sCc&sid=aNYko2loaGBpq5BMAAA8 HTTP/1.1" 200 -
+2025-08-05 15:01:17,889 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:17] "GET /socket.io/?EIO=4&transport=websocket&sid=aNYko2loaGBpq5BMAAA8 HTTP/1.1" 200 -
+2025-08-05 15:01:17,897 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:17] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 15:01:17,918 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:17] "GET /socket.io/?EIO=4&transport=polling&t=PXw6tfR HTTP/1.1" 200 -
+2025-08-05 15:01:17,992 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:17] "POST /socket.io/?EIO=4&transport=polling&t=PXw6tga&sid=KATSK-5xTwObQEUzAAA- HTTP/1.1" 200 -
+2025-08-05 15:01:17,994 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:17] "GET /socket.io/?EIO=4&transport=polling&t=PXw6tgb&sid=KATSK-5xTwObQEUzAAA- HTTP/1.1" 200 -
+2025-08-05 15:01:19,193 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:19] "GET /socket.io/?EIO=4&transport=websocket&sid=KATSK-5xTwObQEUzAAA- HTTP/1.1" 200 -
+2025-08-05 15:01:19,197 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:19] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 15:01:19,220 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:19] "GET /socket.io/?EIO=4&transport=polling&t=PXw6tzj HTTP/1.1" 200 -
+2025-08-05 15:01:19,234 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:19] "POST /socket.io/?EIO=4&transport=polling&t=PXw6tzx&sid=peNSnUff74h84T3rAABA HTTP/1.1" 200 -
+2025-08-05 15:01:19,242 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:19] "GET /socket.io/?EIO=4&transport=polling&t=PXw6tzy&sid=peNSnUff74h84T3rAABA HTTP/1.1" 200 -
+2025-08-05 15:01:26,779 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:26] "GET /socket.io/?EIO=4&transport=websocket&sid=WdQSLDs3MpUukM3jAAA6 HTTP/1.1" 200 -
+2025-08-05 15:01:26,818 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 15:01:26,844 - INFO - 192.168.1.147 - - [05/Aug/2025 15:01:26] "GET /login HTTP/1.1" 200 -
+2025-08-05 15:01:59,008 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:59] "GET /socket.io/?EIO=4&transport=websocket&sid=peNSnUff74h84T3rAABA HTTP/1.1" 200 -
+2025-08-05 15:01:59,017 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-05 15:01:59,026 - INFO - 127.0.0.1 - - [05/Aug/2025 15:01:59] "GET /login HTTP/1.1" 200 -
+2025-08-05 15:07:27,295 - INFO - 127.0.0.1 - - [05/Aug/2025 15:07:27] "GET /login HTTP/1.1" 200 -
+2025-08-05 15:08:31,537 - INFO - 127.0.0.1 - - [05/Aug/2025 15:08:31] "GET /login HTTP/1.1" 200 -
+2025-08-05 15:10:54,463 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 15:10:55,109 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 15:10:55,382 - INFO - 127.0.0.1 - - [05/Aug/2025 15:10:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 15:10:55,389 - INFO - 127.0.0.1 - - [05/Aug/2025 15:10:55] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 15:10:55,427 - INFO - 127.0.0.1 - - [05/Aug/2025 15:10:55] "GET /socket.io/?EIO=4&transport=polling&t=PXw94f1 HTTP/1.1" 200 -
+2025-08-05 15:10:55,445 - INFO - 127.0.0.1 - - [05/Aug/2025 15:10:55] "POST /socket.io/?EIO=4&transport=polling&t=PXw94fG&sid=jWz-sD-5iWSaBK9UAABC HTTP/1.1" 200 -
+2025-08-05 15:10:55,450 - INFO - 127.0.0.1 - - [05/Aug/2025 15:10:55] "GET /socket.io/?EIO=4&transport=polling&t=PXw94fI&sid=jWz-sD-5iWSaBK9UAABC HTTP/1.1" 200 -
+2025-08-05 15:11:01,146 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:01] "GET /socket.io/?EIO=4&transport=websocket&sid=jWz-sD-5iWSaBK9UAABC HTTP/1.1" 200 -
+2025-08-05 15:11:01,155 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:01] "GET / HTTP/1.1" 200 -
+2025-08-05 15:11:02,980 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:02] "GET /dashboard HTTP/1.1" 200 -
+2025-08-05 15:11:03,006 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PXw96VQ HTTP/1.1" 200 -
+2025-08-05 15:11:03,030 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:03] "POST /socket.io/?EIO=4&transport=polling&t=PXw96Vf&sid=P26pmb8jjmxriLubAABE HTTP/1.1" 200 -
+2025-08-05 15:11:03,030 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PXw96Vh&sid=P26pmb8jjmxriLubAABE HTTP/1.1" 200 -
+2025-08-05 15:11:03,043 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:03] "GET /socket.io/?EIO=4&transport=polling&t=PXw96W1&sid=P26pmb8jjmxriLubAABE HTTP/1.1" 200 -
+2025-08-05 15:11:15,366 - INFO - 192.168.1.147 - - [05/Aug/2025 15:11:15] "GET /register HTTP/1.1" 200 -
+2025-08-05 15:11:19,602 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:19] "GET /socket.io/?EIO=4&transport=websocket&sid=P26pmb8jjmxriLubAABE HTTP/1.1" 200 -
+2025-08-05 15:11:19,615 - INFO - 127.0.0.1 - - [05/Aug/2025 15:11:19] "GET /admin HTTP/1.1" 200 -
+2025-08-05 15:11:47,825 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 15:11:48,464 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 15:11:48,730 - INFO - 192.168.1.147 - - [05/Aug/2025 15:11:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-05 15:11:48,814 - INFO - 192.168.1.147 - - [05/Aug/2025 15:11:48] "GET /login HTTP/1.1" 200 -
+2025-08-05 15:12:00,336 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:00] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 15:12:00,367 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw9KVh HTTP/1.1" 200 -
+2025-08-05 15:12:00,390 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:00] "POST /socket.io/?EIO=4&transport=polling&t=PXw9KVu&sid=9juEWmZlh-GsBVKoAABG HTTP/1.1" 200 -
+2025-08-05 15:12:00,394 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw9KVw&sid=9juEWmZlh-GsBVKoAABG HTTP/1.1" 200 -
+2025-08-05 15:12:18,491 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-05 15:12:19,108 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-05 15:12:19,368 - INFO - 192.168.1.147 - - [05/Aug/2025 15:12:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-05 15:12:19,427 - INFO - 192.168.1.147 - - [05/Aug/2025 15:12:19] "GET / HTTP/1.1" 200 -
+2025-08-05 15:12:35,425 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:35] "GET /socket.io/?EIO=4&transport=websocket&sid=9juEWmZlh-GsBVKoAABG HTTP/1.1" 200 -
+2025-08-05 15:12:35,434 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:35] "GET /admin HTTP/1.1" 200 -
+2025-08-05 15:12:43,085 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'webcam'}
+2025-08-05 15:12:43,257 - INFO - Webcam démarrée
+2025-08-05 15:12:43,351 - INFO - Stream démarré
+2025-08-05 15:12:43,352 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:43] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:12:46,499 - INFO - 192.168.1.147 - - [05/Aug/2025 15:12:46] "GET / HTTP/1.1" 200 -
+2025-08-05 15:12:51,784 - INFO - 192.168.1.147 - - [05/Aug/2025 15:12:51] "[32mGET /stream HTTP/1.1[0m" 302 -
+2025-08-05 15:12:51,890 - INFO - 192.168.1.147 - - [05/Aug/2025 15:12:51] "GET / HTTP/1.1" 200 -
+2025-08-05 15:12:58,508 - INFO - 127.0.0.1 - - [05/Aug/2025 15:12:58] "GET /admin HTTP/1.1" 200 -
+2025-08-05 15:13:00,265 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:00] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 15:13:00,292 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw9Z7- HTTP/1.1" 200 -
+2025-08-05 15:13:00,303 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:00] "POST /socket.io/?EIO=4&transport=polling&t=PXw9Z89&sid=ER7MSvt7yF7uJBhsAABI HTTP/1.1" 200 -
+2025-08-05 15:13:00,306 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:00] "GET /socket.io/?EIO=4&transport=polling&t=PXw9Z8A&sid=ER7MSvt7yF7uJBhsAABI HTTP/1.1" 200 -
+2025-08-05 15:13:02,996 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:02] "GET /socket.io/?EIO=4&transport=websocket&sid=ER7MSvt7yF7uJBhsAABI HTTP/1.1" 200 -
+2025-08-05 15:13:03,119 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:03] "[32mPOST /manage_request/3/accept HTTP/1.1[0m" 302 -
+2025-08-05 15:13:03,126 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:03] "GET /manage_users HTTP/1.1" 200 -
+2025-08-05 15:13:03,161 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:03] "GET /socket.io/?EIO=4&transport=polling&t=PXw9Zql HTTP/1.1" 200 -
+2025-08-05 15:13:03,175 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:03] "POST /socket.io/?EIO=4&transport=polling&t=PXw9Zr0&sid=ULClxX8IBkizAiawAABK HTTP/1.1" 200 -
+2025-08-05 15:13:03,175 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:03] "GET /socket.io/?EIO=4&transport=polling&t=PXw9Zr1&sid=ULClxX8IBkizAiawAABK HTTP/1.1" 200 -
+2025-08-05 15:13:05,605 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:05] "GET /stream HTTP/1.1" 200 -
+2025-08-05 15:13:05,828 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:05] "GET /socket.io/?EIO=4&transport=polling&t=PXw9aPI HTTP/1.1" 200 -
+2025-08-05 15:13:05,869 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:05] "POST /socket.io/?EIO=4&transport=polling&t=PXw9aRS&sid=YWCNZN4Kb2JePhtwAABM HTTP/1.1" 200 -
+2025-08-05 15:13:05,875 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:05] "GET /socket.io/?EIO=4&transport=polling&t=PXw9aRW&sid=YWCNZN4Kb2JePhtwAABM HTTP/1.1" 200 -
+2025-08-05 15:13:05,950 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:05] "GET /socket.io/?EIO=4&transport=polling&t=PXw9aSG&sid=YWCNZN4Kb2JePhtwAABM HTTP/1.1" 200 -
+2025-08-05 15:13:06,754 - INFO - 192.168.1.147 - - [05/Aug/2025 15:13:06] "GET /api/stream HTTP/1.1" 200 -
+2025-08-05 15:13:14,616 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:14] "GET /socket.io/?EIO=4&transport=websocket&sid=ULClxX8IBkizAiawAABK HTTP/1.1" 200 -
+2025-08-05 15:13:14,624 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:14] "GET /admin HTTP/1.1" 200 -
+2025-08-05 15:13:41,628 - DEBUG - Requête reçue pour /api/control_recording: {'action': 'start'}
+2025-08-05 15:13:41,631 - INFO - Enregistrement démarré : /home/alfa/Projet/devops/Programmation reseau version final/app/static/uploads/recording_20250805_151341.mp4
+2025-08-05 15:13:41,631 - INFO - Enregistrement démarré
+2025-08-05 15:13:41,634 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:41] "[35m[1mPOST /api/control_recording HTTP/1.1[0m" 204 -
+2025-08-05 15:13:50,910 - DEBUG - Requête reçue pour /api/control_recording: {'action': 'stop'}
+2025-08-05 15:13:50,911 - INFO - Enregistrement arrêté
+2025-08-05 15:13:50,911 - INFO - Enregistrement arrêté
+2025-08-05 15:13:50,912 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:50] "[35m[1mPOST /api/control_recording HTTP/1.1[0m" 204 -
+2025-08-05 15:13:50,918 - DEBUG - Requête reçue pour /api/videos
+2025-08-05 15:13:50,918 - INFO - Vidéos récupérées: ['1753459991_Hijery_Anao_-_Ambondrona_✅(360p).mp4', 'recording_20250805_151341.mp4']
+2025-08-05 15:13:50,936 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:50] "[35m[1mGET /api/videos HTTP/1.1[0m" 500 -
+2025-08-05 15:13:55,542 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 15:13:55,544 - ERROR - Erreur : impossible de lire le frame
+2025-08-05 15:13:55,545 - INFO - Webcam arrêtée
+2025-08-05 15:13:55,545 - INFO - Webcam arrêtée
+2025-08-05 15:13:55,677 - INFO - Stream arrêté
+2025-08-05 15:13:55,679 - INFO - 127.0.0.1 - - [05/Aug/2025 15:13:55] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:14:06,032 - INFO - 127.0.0.1 - - [05/Aug/2025 15:14:06] "GET /admin HTTP/1.1" 200 -
+2025-08-05 15:14:17,614 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'start', 'stream_type': 'video', 'video_path': 'recording_20250805_151341.mp4'}
+2025-08-05 15:14:17,698 - INFO - Stream démarré
+2025-08-05 15:14:17,700 - INFO - 127.0.0.1 - - [05/Aug/2025 15:14:17] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-05 15:14:21,372 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "GET /socket.io/?EIO=4&transport=websocket&sid=YWCNZN4Kb2JePhtwAABM HTTP/1.1" 200 -
+2025-08-05 15:14:21,503 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "GET /stream HTTP/1.1" 200 -
+2025-08-05 15:14:21,798 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "[35m[1mGET /static/uploads/recording_20250805_151341.mp4 HTTP/1.1[0m" 206 -
+2025-08-05 15:14:21,806 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw9s-A HTTP/1.1" 200 -
+2025-08-05 15:14:21,872 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "POST /socket.io/?EIO=4&transport=polling&t=PXw9s-g&sid=aoUKNkY-QOAUa1M1AABO HTTP/1.1" 200 -
+2025-08-05 15:14:21,873 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "GET /socket.io/?EIO=4&transport=polling&t=PXw9s-h&sid=aoUKNkY-QOAUa1M1AABO HTTP/1.1" 200 -
+2025-08-05 15:14:21,893 - INFO - 192.168.1.147 - - [05/Aug/2025 15:14:21] "[35m[1mGET /static/uploads/recording_20250805_151341.mp4 HTTP/1.1[0m" 206 -
+2025-08-05 15:14:48,744 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
+2025-08-05 15:14:48,846 - INFO - Stream arrêté
+2025-08-05 15:14:48,848 - INFO - 127.0.0.1 - - [05/Aug/2025 15:14:48] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -

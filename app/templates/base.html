@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} - Streaming</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+    <nav class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="{{ url_for('main.index') }}" class="text-xl font-bold">Streaming App</a>
+            <div class="flex items-center space-x-4">
+                <a href="{{ url_for('main.index') }}" class="mr-4">Accueil</a>
+                {% if session['user_id'] %}
+                    <span class="mr-4">Bienvenue, {{ session['username'] }}</span>
+                    <a href="{{ url_for('main.dashboard') }}" class="mr-4">Tableau de bord</a>
+                    {% if session['role'] == 'admin' %}
+                        <a href="{{ url_for('main.admin') }}" class="mr-4">Administration</a>
+                        <a href="{{ url_for('main.manage_users') }}" class="mr-4">Gérer les utilisateurs</a>
+                    {% endif %}
+                    <a href="{{ url_for('auth.logout') }}">Déconnexion</a>
+                {% else %}
+                    <a href="{{ url_for('auth.login') }}" class="mr-4">Connexion</a>
+                    <a href="{{ url_for('auth.register') }}">Inscription</a>
+                {% endif %}
+                <button id="theme-toggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200">
+                    <span class="dark:hidden">🌙</span>
+                    <span class="hidden dark:block">☀️</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto py-8">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="bg-{{ 'green-100 text-green-700' if category == 'success' else 'red-100 text-red-700' if category == 'error' else 'blue-100 text-blue-700' }} dark:bg-{{ 'green-800 text-green-200' if category == 'success' else 'red-800 text-red-200' if category == 'error' else 'blue-800 text-blue-200' }} p-4 rounded-lg mb-4">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+
+    <div id="modal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden transition-opacity duration-300">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-300 scale-95">
+            <h3 id="modal-title" class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4"></h3>
+            <p id="modal-message" class="text-gray-600 dark:text-gray-400 mb-4"></p>
+            <div id="modal-actions" class="flex justify-end space-x-4">
+                <button id="modal-close" class="px-4 py-2 bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded hover:bg-gray-400 dark:hover:bg-gray-700">Fermer</button>
+                <button id="modal-confirm" class="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 hidden">Confirmer</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const html = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        if (localStorage.getItem('theme') === 'dark' || 
+            (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+        });
+
+        function showModal(title, message, showConfirm = false, confirmCallback = null) {
+            console.log('Affichage du modal:', { title, message, showConfirm });
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalMessage = document.getElementById('modal-message');
+            const modalConfirm = document.getElementById('modal-confirm');
+            const modalClose = document.getElementById('modal-close');
+
+            modalTitle.textContent = title;
+            modalMessage.textContent = message;
+            modalConfirm.classList.toggle('hidden', !showConfirm);
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.querySelector('div').classList.remove('scale-95');
+                modal.querySelector('div').classList.add('scale-100');
+            }, 10);
+
+            modalClose.onclick = () => {
+                console.log('Bouton Fermer cliqué');
+                modal.classList.add('hidden');
+                modal.querySelector('div').classList.remove('scale-100');
+                modal.querySelector('div').classList.add('scale-95');
+            };
+
+            if (showConfirm) {
+                modalConfirm.onclick = () => {
+                    console.log('Bouton Confirmer cliqué');
+                    if (confirmCallback) confirmCallback();
+                    modal.classList.add('hidden');
+                    modal.querySelector('div').classList.remove('scale-100');
+                    modal.querySelector('div').classList.add('scale-95');
+                };
+            }
+        }
+    </script>
+</body>
+</html>

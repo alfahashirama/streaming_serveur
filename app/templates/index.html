@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Accueil - Streaming{% endblock %}
+{% block content %}
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-200">Bienvenue sur Streaming App</h1>
+    </header>
+    
+    <main>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center">
+            {% if stats.stream_active %}
+                <p class="text-gray-600 dark:text-gray-400">Stream en direct actif ! Spectateurs actuels : {{ stats.viewers }}</p>
+                <a href="{{ url_for('main.stream') }}" class="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Rejoindre le Stream</a>
+            {% else %}
+                <p class="text-gray-600 dark:text-gray-400">Aucun stream actif pour le moment.</p>
+            {% endif %}
+        </div>
+    </main>
+{% endblock %}

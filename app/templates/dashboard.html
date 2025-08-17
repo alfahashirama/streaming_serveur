@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard - Streaming{% endblock %}
+{% block content %}
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-200">📊 Tableau de bord</h1>
+    </header>
+    
+    <main>
+        {% if session['role'] == 'admin' %}
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                    <h3 class="text-lg font-medium text-gray-600 dark:text-gray-400">Utilisateurs totaux</h3>
+                    <span class="text-2xl font-bold text-gray-800 dark:text-gray-200">{{ dashboard_stats.total_users }}</span>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                    <h3 class="text-lg font-medium text-gray-600 dark:text-gray-400">Administrateurs</h3>
+                    <span class="text-2xl font-bold text-gray-800 dark:text-gray-200">{{ dashboard_stats.total_admins }}</span>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                    <h3 class="text-lg font-medium text-gray-600 dark:text-gray-400">Temps de visionnage</h3>
+                    <span class="text-2xl font-bold text-gray-800 dark:text-gray-200">{{ dashboard_stats.total_watch_time }}</span>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+                    <h3 class="text-lg font-medium text-gray-600 dark:text-gray-400">Stream Actif</h3>
+                    <span class="text-2xl font-bold text-gray-800 dark:text-gray-200">{{ 'Oui' if stats.stream_active else 'Non' }}</span>
+                </div>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-8">
+                <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Dernières connexions</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-400 font-semibold">
+                                <th class="p-4">Nom d'utilisateur</th>
+                                <th class="p-4">Email</th>
+                                <th class="p-4">Dernière connexion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for username, last_login, email in dashboard_stats.recent_logins %}
+                            <tr class="border-b dark:border-gray-600">
+                                <td class="p-4 text-gray-800 dark:text-gray-200">{{ username }}</td>
+                                <td class="p-4 text-gray-800 dark:text-gray-200">{{ email }}</td>
+                                <td class="p-4 text-gray-800 dark:text-gray-200">{{ last_login[:10] if last_login else 'Jamais' }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        {% endif %}
+        
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Utilisateurs connectés au live</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full" id="connected-users-table">
+                    <thead>
+                        <tr class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-400 font-semibold">
+                            <th class="p-4">Nom d'utilisateur</th>
+                            <th class="p-4">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="connected-users-body">
+                        {% for user in connected_users %}
+                        <tr class="border-b dark:border-gray-600">
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.username }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.email }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Notifications</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-400 font-semibold">
+                            <th class="p-4">ID</th>
+                            <th class="p-4">Message</th>
+                            <th class="p-4">Date</th>
+                            <th class="p-4">Statut</th>
+                            <th class="p-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="notifications-table">
+                        {% for notification in dashboard_stats.notifications %}
+                        <tr class="border-b dark:border-gray-600 transition-all duration-300 {{ 'bg-gray-200 dark:bg-gray-600' if notification.read else '' }}" data-notification-id="{{ notification.id }}">
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ notification.id }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ notification.message }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ notification.created_at[:10] }}</td>
+                            <td class="p-4 status text-gray-800 dark:text-gray-200">{{ 'Lu' if notification.read else 'Non lu' }}</td>
+                            <td class="p-4">
+                                {% if not notification.read %}
+                                <button data-action="read" data-id="{{ notification.id }}" class="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">Marquer comme lu</button>
+                                {% endif %}
+                                <button data-action="delete" data-id="{{ notification.id }}" class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600">Supprimer</button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center">
+            <p class="text-gray-600 dark:text-gray-400">Bienvenue, {{ session['username'] }} ! Vous pouvez regarder le stream en direct ou consulter les statistiques générales.</p>
+            {% if stats.stream_active %}
+                <a href="{{ url_for('main.stream') }}" class="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Rejoindre le Stream</a>
+            {% else %}
+                <p class="mt-4 text-gray-600 dark:text-gray-400">Aucun stream actif pour le moment.</p>
+            {% endif %}
+        </div>
+    </main>
+
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+        socket.on('connect', () => {
+            console.log('Connecté à SocketIO');
+        });
+        socket.on('notification_updated', (data) => {
+            console.log('Notification mise à jour:', data);
+            const row = document.querySelector(`tr[data-notification-id="${data.notification_id}"]`);
+            if (row) {
+                if (data.action === 'delete') {
+                    row.style.opacity = '0';
+                    setTimeout(() => row.remove(), 300);
+                    showModal('Succès', 'Notification supprimée', false);
+                } else if (data.action === 'read') {
+                    row.classList.add('bg-gray-200', 'dark:bg-gray-600');
+                    row.querySelector('.status').textContent = 'Lu';
+                    const readBtn = row.querySelector('button[data-action="read"]');
+                    if (readBtn) readBtn.remove();
+                    showModal('Succès', 'Notification marquée comme lue', false);
+                }
+            } else {
+                console.warn(`Ligne pour notification_id=${data.notification_id} non trouvée dans le DOM`);
+            }
+        });
+        socket.on('update_users', (users) => {
+            console.log('Utilisateurs connectés mis à jour:', users);
+            const tbody = document.getElementById('connected-users-body');
+            tbody.innerHTML = '';
+            users.forEach(user => {
+                const row = document.createElement('tr');
+                row.className = 'border-b dark:border-gray-600';
+                row.innerHTML = `
+                    <td class="p-4 text-gray-800 dark:text-gray-200">${user.username}</td>
+                    <td class="p-4 text-gray-800 dark:text-gray-200">${user.email}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        });
+
+        // Log des notifications chargées
+        console.log('Notifications chargées:', [
+            {% for notification in dashboard_stats.notifications %}
+            { id: {{ notification.id }}, message: "{{ notification.message }}", read: {{ notification.read | tojson }} },
+            {% endfor %}
+        ]);
+
+        document.querySelectorAll('#notifications-table button').forEach(button => {
+            button.addEventListener('click', async () => {
+                const action = button.getAttribute('data-action');
+                const id = button.getAttribute('data-id');
+                console.log(`Action ${action} sur la notification ${id}`);
+                try {
+                    const response = await fetch(`/api/notifications/${id}/${action}`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' }
+                    });
+                    console.log(`Réponse HTTP: ${response.status}`);
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        throw new Error(`Erreur HTTP ${response.status}: ${errorText || 'Aucun détail disponible'}`);
+                    }
+                } catch (error) {
+                    console.error('Erreur lors de l\'action sur la notification:', error);
+                    showModal('Erreur', `Impossible de ${action === 'read' ? 'marquer comme lue' : 'supprimer'} la notification: ${error.message}`, false);
+                }
+            });
+        });
+    </script>
+{% endblock %}

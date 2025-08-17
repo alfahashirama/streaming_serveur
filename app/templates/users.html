@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %}Gérer les utilisateurs - Streaming{% endblock %}
+{% block content %}
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-gray-200">Gérer les utilisateurs</h1>
+    </header>
+    
+    <main>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-8">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Liste des utilisateurs</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-400 font-semibold">
+                            <th class="p-4">Nom d'utilisateur</th>
+                            <th class="p-4">Email</th>
+                            <th class="p-4">Rôle</th>
+                            <th class="p-4">Date de création</th>
+                            <th class="p-4">Dernière connexion</th>
+                            <th class="p-4">Actif</th>
+                            <th class="p-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-table">
+                        {% for user in users %}
+                        <tr class="border-b dark:border-gray-600" data-user-id="{{ user.id }}">
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.username }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.email }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200 role">{{ user.role }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.created_at[:10] }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ user.last_login[:10] if user.last_login else 'Jamais' }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ 'Oui' if user.active else 'Non' }}</td>
+                            <td class="p-4">
+                                {% if user.role != 'admin' %}
+                                <button data-user-id="{{ user.id }}" data-username="{{ user.username }}" class="px-3 py-1 bg-purple-500 text-white rounded hover:bg-purple-600 promote-btn">Promouvoir en admin</button>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">Demandes de stream en attente</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-400 font-semibold">
+                            <th class="p-4">Nom d'utilisateur</th>
+                            <th class="p-4">Email</th>
+                            <th class="p-4">Date de la demande</th>
+                            <th class="p-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="requests-table">
+                        {% for request in requests %}
+                        <tr class="border-b dark:border-gray-600" data-request-id="{{ request.id }}">
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ request.username }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ request.email }}</td>
+                            <td class="p-4 text-gray-800 dark:text-gray-200">{{ request.requested_at[:10] }}</td>
+                            <td class="p-4">
+                                <form action="{{ url_for('main.manage_request', request_id=request.id, action='accept') }}" method="POST" class="inline">
+                                    <button type="submit" class="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600">Accepter</button>
+                                </form>
+                                <form action="{{ url_for('main.manage_request', request_id=request.id, action='reject') }}" method="POST" class="inline">
+                                    <button type="submit" class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600">Refuser</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+        socket.on('connect', () => {
+            console.log('Connecté à SocketIO');
+        });
+        socket.on('request_updated', (data) => {
+            console.log('Requête mise à jour:', data);
+            const row = document.querySelector(`tr[data-request-id="${data.request_id}"]`);
+            if (row) {
+                row.remove();
+            }
+        });
+        socket.on('user_promoted', (data) => {
+            console.log('Utilisateur promu:', data);
+            const row = document.querySelector(`tr[data-user-id="${data.user_id}"]`);
+            if (row) {
+                row.querySelector('.role').textContent = 'admin';
+                const promoteBtn = row.querySelector('.promote-btn');
+                if (promoteBtn) promoteBtn.remove();
+                showModal('Succès', `L'utilisateur ${data.username} a été promu administrateur`, false);
+            }
+        });
+
+        document.querySelectorAll('.promote-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                console.log('Bouton Promouvoir cliqué');
+                const userId = button.getAttribute('data-user-id');
+                const username = button.getAttribute('data-username');
+                showModal(
+                    'Confirmer la promotion',
+                    `Voulez-vous promouvoir ${username} en administrateur ?`,
+                    true,
+                    async () => {
+                        try {
+                            const response = await fetch(`/api/promote_user/${userId}`, {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' }
+                            });
+                            if (!response.ok) {
+                                throw new Error(`Erreur HTTP ${response.status}`);
+                            }
+                            console.log('Promotion réussie');
+                        } catch (error) {
+                            console.error('Erreur lors de la promotion:', error);
+                            showModal('Erreur', `Erreur: ${error.message}`, false);
+                        }
+                    }
+                );
+            });
+        });
+    </script>
+{% endblock %}
