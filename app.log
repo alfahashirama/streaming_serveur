@@ -947,3 +947,21 @@
 2025-08-05 15:14:48,744 - DEBUG - Requête reçue pour /api/control_stream: {'action': 'stop'}
 2025-08-05 15:14:48,846 - INFO - Stream arrêté
 2025-08-05 15:14:48,848 - INFO - 127.0.0.1 - - [05/Aug/2025 15:14:48] "[35m[1mPOST /api/control_stream HTTP/1.1[0m" 204 -
+2025-08-17 19:28:36,861 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.115:5000
+2025-08-17 19:28:36,861 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-17 19:28:36,862 - INFO -  * Restarting with stat
+2025-08-17 19:28:37,271 - WARNING -  * Debugger is active!
+2025-08-17 19:28:37,397 - INFO -  * Debugger PIN: 115-241-287
+2025-08-17 19:28:53,500 - INFO - 127.0.0.1 - - [17/Aug/2025 19:28:53] "GET / HTTP/1.1" 200 -
+2025-08-17 19:29:00,676 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-17 19:29:04,939 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:04] "GET /login HTTP/1.1" 200 -
+2025-08-17 19:29:30,546 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-08-17 19:29:31,450 - DEBUG - https://www.google.com:443 "POST /recaptcha/api/siteverify HTTP/1.1" 200 None
+2025-08-17 19:29:32,386 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-17 19:29:32,408 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:32] "GET /dashboard HTTP/1.1" 200 -
+2025-08-17 19:29:32,435 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:32] "GET /socket.io/?EIO=4&transport=polling&t=PYutL-E HTTP/1.1" 200 -
+2025-08-17 19:29:32,622 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:32] "POST /socket.io/?EIO=4&transport=polling&t=PYutL_8&sid=v_sH7owYRWzh5mdCAAAA HTTP/1.1" 200 -
+2025-08-17 19:29:32,623 - INFO - 127.0.0.1 - - [17/Aug/2025 19:29:32] "GET /socket.io/?EIO=4&transport=polling&t=PYutL_A&sid=v_sH7owYRWzh5mdCAAAA HTTP/1.1" 200 -
