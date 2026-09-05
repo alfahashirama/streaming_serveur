@@ -1,0 +1,13 @@
+# Secrets : ne jamais versionner
+.env
+.env.*
+!.env.example
+
+# Dependances
+node_modules/
+__pycache__/
+*.pyc
+
+# Journaux et fichiers locaux
+*.log
+.DS_Store
